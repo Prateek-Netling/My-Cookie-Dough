@@ -2,7 +2,7 @@
         <div class="section our-international-stores">
           <div class="container">
             <div class="box1 alt mb-5 mb-lg-5">
-              <h2>International stores</h2>
+              <h2>{{ section.settings.heading }}</h2>
               <div class="row pt-2">
                 {% for block in section.blocks %}
                   {% case block.type %}
@@ -29,6 +29,12 @@
   {
     "name": "International Stores",
     "settings": [
+	  {
+        "id": "heading",
+        "type": "text",
+        "label": "Heading",
+        "default": "International stores"
+      },
       {
         "id": "more-stores",
         "type": "textarea",
