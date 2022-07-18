@@ -118,7 +118,8 @@
             "fri-timing": "9:00 AM - 6:00 PM",
             "sat-timing": "9:00 AM - 6:00 PM",
             "sun-timing": "11:00 AM - 5:00 PM",
-            "button-label": "Get Directions"
+            "button-label": "Get Directions",
+            "button-url": "https:\/\/github.com\/"
           }
         },
         "258c382f-de47-4db7-b86e-4c5ea01d1a53": {
@@ -134,7 +135,8 @@
             "fri-timing": "9:00 AM - 6:00 PM",
             "sat-timing": "9:00 AM - 6:00 PM",
             "sun-timing": "11:00 AM - 5:00 PM",
-            "button-label": "Get Directions"
+            "button-label": "Get Directions",
+            "button-url": ""
           }
         },
         "573bd37e-9753-4b03-88f5-7df3cd5f3660": {
@@ -150,7 +152,8 @@
             "fri-timing": "9:00 AM - 6:00 PM",
             "sat-timing": "9:00 AM - 6:00 PM",
             "sun-timing": "11:00 AM - 5:00 PM",
-            "button-label": "Get Directions"
+            "button-label": "Get Directions",
+            "button-url": ""
           }
         },
         "4722b87b-c5a9-4a39-87b6-7815067f9afc": {
@@ -166,7 +169,8 @@
             "fri-timing": "9:00 AM - 6:00 PM",
             "sat-timing": "9:00 AM - 6:00 PM",
             "sun-timing": "11:00 AM - 5:00 PM",
-            "button-label": "Get Directions"
+            "button-label": "Get Directions",
+            "button-url": ""
           }
         },
         "e3415b49-e4f0-47a1-89ba-6424be530e41": {
@@ -182,7 +186,8 @@
             "fri-timing": "9:00 AM - 6:00 PM",
             "sat-timing": "9:00 AM - 6:00 PM",
             "sun-timing": "11:00 AM - 5:00 PM",
-            "button-label": "Get Directions"
+            "button-label": "Get Directions",
+            "button-url": ""
           }
         },
         "9618cf6f-386f-468f-928e-4f47dc802da3": {
@@ -198,7 +203,8 @@
             "fri-timing": "9:00 AM - 6:00 PM",
             "sat-timing": "9:00 AM - 6:00 PM",
             "sun-timing": "11:00 AM - 5:00 PM",
-            "button-label": "Get Directions"
+            "button-label": "Get Directions",
+            "button-url": ""
           }
         },
         "34c8d4b8-380c-4d3e-a344-29fcac266dc7": {
@@ -214,7 +220,8 @@
             "fri-timing": "9:00 AM - 6:00 PM",
             "sat-timing": "9:00 AM - 6:00 PM",
             "sun-timing": "11:00 AM - 5:00 PM",
-            "button-label": "Get Directions"
+            "button-label": "Get Directions",
+            "button-url": ""
           }
         },
         "de2bbca7-1f11-457c-9dec-d3df286cea44": {
@@ -230,7 +237,8 @@
             "fri-timing": "9:00 AM - 6:00 PM",
             "sat-timing": "9:00 AM - 6:00 PM",
             "sun-timing": "11:00 AM - 5:00 PM",
-            "button-label": "Get Directions"
+            "button-label": "Get Directions",
+            "button-url": ""
           }
         },
         "d120ec3d-4734-422c-84ab-5b5a4f32a82a": {
@@ -246,7 +254,8 @@
             "fri-timing": "9:00 AM - 6:00 PM",
             "sat-timing": "9:00 AM - 6:00 PM",
             "sun-timing": "11:00 AM - 5:00 PM",
-            "button-label": "Get Directions"
+            "button-label": "Get Directions",
+            "button-url": ""
           }
         },
         "58409d90-4bda-44e1-8f33-3c6202980778": {
@@ -262,7 +271,8 @@
             "fri-timing": "9:00 AM - 6:00 PM",
             "sat-timing": "9:00 AM - 6:00 PM",
             "sun-timing": "11:00 AM - 5:00 PM",
-            "button-label": "Get Directions"
+            "button-label": "Get Directions",
+            "button-url": ""
           }
         }
       },
