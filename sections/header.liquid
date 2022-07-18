@@ -91,7 +91,7 @@
               <div class="col-md-5">
                 <div class="images">
                   <div class="image">
-                    <img class="w-100" src="images/image2.jpg" alt="img">
+                    <img class="w-100" src="{{ section.settings.menu-image | image_url }}" alt="img">
                   </div>
                 </div>
               </div>
@@ -119,6 +119,11 @@
           "id": "menu-heading",
           "type": "html",
           "label": "Heading"
+        },
+		{
+          "id": "menu-image",
+          "type": "image_picker",
+          "label": "Image"
         }
     ]
   }
