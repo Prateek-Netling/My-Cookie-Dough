@@ -77,7 +77,7 @@
                 </ul>
               </div>
               <div class="col-lg-5 col-md-5 order-lg-1">
-                <p class="copyright">© 2022, MyCookieDough. All rights reserved.</p>
+                <p class="copyright">{{ section.settings.copyright-title }}</p>
               </div>
               <div class="col-lg-2 col-md-12 order-lg-3 text-lg-end">
                 <p>Site by <a href="#"><img src="{{ 'newphew-logo.svg' | asset_url }}" alt="logo"></a></p>
@@ -136,7 +136,13 @@
 		{
           "type": "header",
           "content": "Copyright"
-        }
+        },
+		{
+		  "id": "copyright-title",
+		  "type": "text",
+	  	  "label": "Title",
+		  "default": "© 2022, MyCookieDough. All rights reserved."
+		}
 	]
   }
 {% endschema %}
