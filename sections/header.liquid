@@ -80,7 +80,9 @@
                 <h2 class="display-2">
                   {{ section.settings.menu-heading }} </h2>
                 <ul class="menu">
-                  
+                  {% for links in section.settings.menu.links %}
+                    <li><a href="">{{ link.title }}</a></li>
+                  {% endfor %}
 <!--                   <li><a href="#">Gifts & Merch</a></li>
                   <li><a href="#">Corporate</a></li>
                   <li><a href="#">About Us</a></li>
