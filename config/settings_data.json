@@ -1,2 +1,26 @@
 {
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu-heading": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "newsletter-heading": "Subscribe to our newsletter",
+          "newsletter-button-label": "Submit",
+          "facebook-url": "facebook.com",
+          "twitter-url": "",
+          "instagram-url": "",
+          "tiktok-url": ""
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
 }
