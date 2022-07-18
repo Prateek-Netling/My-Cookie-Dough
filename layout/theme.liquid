@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Page Title -->
+    <title>Home | My Cookie Dough</title>
+    <!-- Stylesheets -->
+    {{ 'bootstrap.css' | asset_url | stylesheet_tag }}
+    {{ 'owl.carousel-min.css' | asset_url | stylesheet_tag }}
+    {{ 'main.css' | asset_url | stylesheet_tag }}
+    {{ 'fontawesome-webfont.css' | asset_url | stylesheet_tag }}
+
+    <!-- Javascript -->
+    {{ 'head.core.js' | asset_url | script_tag }}
+    {{ 'lt-ie-9.js' | asset_url | script_tag }}
+    
+    {{ content_for_header }}
+  </head>
+  <body class="bg-color1">
+    <!-- container -->
+    <div id="container">
+       {% section 'header' %}
+       {{ content_for_layout }}
+       {% section 'footer' %}
+    </div>
+  
+    <!-- Footer Javascript -->
+    {{ 'jquery.js' | asset_url | script_tag }}
+    {{ 'popper.js' | asset_url | script_tag }}
+    {{ 'bootstrap.js' | asset_url | script_tag }}
+    {{ 'ofi.browser.js' | asset_url | script_tag }}
+    {{ 'owl.carousel-min.js' | asset_url | script_tag }}
+    {{ 'skrollr.js' | asset_url | script_tag }}
+    {{ 'main.js' | asset_url | script_tag }}
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!-- footer -->
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-12 column text-center text-lg-start">
+              <div class="logos">
+                <a href="#">
+                  <img src="{{ 'logo.svg' | asset_url }}" alt="logo">
+                </a>
+                <a href="#">
+                  <img src="{{ 'logo2.svg' | asset_url }}" alt="logo">
+                </a>
+              </div>
+              <h5>Subscribe to our newsletter</h5>
+              <div class="form email-form">
+                <form action="#">
+                  <input type="email" class="form-control" placeholder="Email">
+                  <input type="submit" class="btn btn-outline-primary" value="Submit">
+                </form>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-5 col-md-8 ms-auto">
+              <div class="row">
+                <div class="col-md-6 column">
+                  <h6>SHOP</h6>
+                  <ul class="footer-navigation">
+                    <li><a href="#">Bake it Yourself</a></li>
+                    <li><a href="#">MyCookies</a></li>
+                    <li><a href="#">Gifts & Merch</a></li>
+                    <li><a href="#">Corporate</a></li>
+                    <li><a href="#">Stores</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6 column">
+                  <h6>CUSTOMER</h6>
+                  <ul class="footer-navigation">
+                    <li><a href="#">Nutritional Information & Allergens </a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Refunds</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 column">
+              <ul class="sociables alt">
+                <li class="fb">
+                  <a href="#">
+                    <img src="{{ 'fb.svg' | asset_url }}" alt="fb-icon">
+                  </a>
+                </li>
+                <li class="twitter">
+                  <a href="#">
+                    <img src="{{ 'twitter.svg' | asset_url }}" alt="twitter-icon">
+                  </a>
+                </li>
+                <li class="insta">
+                  <a href="#">
+                    <img src="{{ 'insta.svg' | asset_url }}" alt="insta-icon">
+                  </a>
+                </li>
+                <li class="tiktok">
+                  <a href="#">
+                    <img src="{{ 'tiktok.svg' | asset_url }}" alt="tiktok-icon">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <footer>
+            <div class="row">
+              <div class="col-lg-5 col-md-7 order-lg-2">
+                <ul class="policies">
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Cookie Policy</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-5 col-md-5 order-lg-1">
+                <p class="copyright">© 2022, MyCookieDough. All rights reserved.</p>
+              </div>
+              <div class="col-lg-2 col-md-12 order-lg-3 text-lg-end">
+                <p>Site by <a href="#"><img src="images/newphew-logo.svg" alt="logo"></a></p>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+<!-- /footer -->
+
+
+{% schema %}
+  {
+    "name": "Footer",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
