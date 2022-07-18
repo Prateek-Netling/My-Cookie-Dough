@@ -5,7 +5,8 @@
         "type": "header",
         "settings": {
           "menu-heading": "<small>SHOP<\/small> MY COOKIE DOUGH <br> My COOKIES",
-          "menu-image": "shopify:\/\/shop_images\/image2_e1ce76bc-7520-4544-9910-9568eb68dd72.jpg"
+          "menu-image": "shopify:\/\/shop_images\/image2_e1ce76bc-7520-4544-9910-9568eb68dd72.jpg",
+          "menu": "main-menu"
         }
       },
       "footer": {
@@ -16,7 +17,8 @@
           "facebook-url": "https:\/\/www.facebook.com\/",
           "twitter-url": "https:\/\/www.twitter.com\/",
           "instagram-url": "https:\/\/www.instagram.com\/",
-          "tiktok-url": "https:\/\/www.tiktok.com\/"
+          "tiktok-url": "https:\/\/www.tiktok.com\/",
+          "copyright-title": "© 2022, MyCookieDough. All rights reserved."
         }
       }
     },
