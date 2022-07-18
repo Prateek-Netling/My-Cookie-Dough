@@ -24,13 +24,17 @@
                 <div class="col-md-6 column">
                   <h6>SHOP</h6>
                   <ul class="footer-navigation">
-
+					{% for link in section.settings.shop-menu %}
+                    	<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                    {% endfor %}
                   </ul>
                 </div>
                 <div class="col-md-6 column">
                   <h6>CUSTOMER</h6>
                   <ul class="footer-navigation">
-
+					{% for link in section.settings.customer-menu %}
+                    	<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                    {% endfor %}
                   </ul>
                 </div>
               </div>
