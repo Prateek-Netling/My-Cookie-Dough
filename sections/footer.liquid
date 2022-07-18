@@ -68,9 +68,9 @@
             <div class="row">
               <div class="col-lg-5 col-md-7 order-lg-2">
                 <ul class="policies">
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms of Service</a></li>
-                  <li><a href="#">Cookie Policy</a></li>
+                  {% for link in section.settings.policies-menu.links %}
+                    	<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                  {% endfor %}
                 </ul>
               </div>
               <div class="col-lg-5 col-md-5 order-lg-1">
@@ -119,6 +119,11 @@
 		  "id": "customer-menu",
 		   "type": "link_list",
 	 	   "label": "Customer Menu"
+		},
+		{
+		  "id": "policies-menu",
+		   "type": "link_list",
+	 	   "label": "Policies Menu"
 		},
 		{
           "type": "header",
