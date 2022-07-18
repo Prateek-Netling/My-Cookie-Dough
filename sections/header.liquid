@@ -81,7 +81,7 @@
                   {{ section.settings.menu-heading }} </h2>
                 <ul class="menu">
                   {% for link in section.settings.menu.links %}
-                    <li><a href="">{{ link.title }}</a></li>
+                    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
                   {% endfor %}
 <!--                   <li><a href="#">Gifts & Merch</a></li>
                   <li><a href="#">Corporate</a></li>
