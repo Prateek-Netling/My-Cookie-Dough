@@ -78,7 +78,7 @@
             <div class="row">
               <div class="col-md-7 column mb-md-0">
                 <h2 class="display-2">
-                  <small>SHOP</small> MY COOKIE DOUGH <br> My COOKIES </h2>
+                  {{ section.settings.menu-heading }} </h2>
                 <ul class="menu">
                   <li><a href="#">Gifts & Merch</a></li>
                   <li><a href="#">Corporate</a></li>
@@ -106,11 +106,20 @@
   {
     "name": "Header",
     "settings": [
-      {
-        "id": "logo",
-        "type": "image_picker",
-        "label": "Header Logo"
-      }
+        {
+          "id": "logo",
+          "type": "image_picker",
+          "label": "Header Logo"
+        },
+		{
+          "type": "header",
+          "content": "Menu Navigation"
+        },
+		{
+          "id": "menu-heading",
+          "type": "html",
+          "label": "Heading"
+        }
     ]
   }
 {% endschema %}
