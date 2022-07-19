@@ -3,6 +3,7 @@
     "main_product": {
       "type": "main-product",
       "settings": {
+        "name": "Cookie 1"
       }
     }
   },
