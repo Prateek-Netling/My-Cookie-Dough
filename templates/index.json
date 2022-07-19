@@ -282,7 +282,7 @@
             "sat-timing": "9:00 AM - 6:00 PM",
             "sun-timing": "11:00 AM - 5:00 PM",
             "button-label": "Get Directions",
-            "button-url": ""
+            "button-url": "\/\/google.com"
           }
         }
       },
@@ -349,6 +349,7 @@
         "0ec01f92-d5ff-4f99-867b-6fd1d5932c54"
       ],
       "settings": {
+        "heading": "International stores",
         "more-stores": "More Stores opening soon including, Cyprus, Qatar, Belgium and more!"
       }
     },
