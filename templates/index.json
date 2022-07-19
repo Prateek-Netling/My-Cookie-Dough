@@ -1,7 +1,7 @@
 {
   "sections": {
-    "banner": {
-      "type": "banner",
+    "home_page_banner": {
+      "type": "home-page-banner",
       "settings": {
         "heading": "MyCookiedough<sup>r<\/sup><br> Stores",
         "text": "<p>Experience moments of pure joy at<br\/>our My Cookie Dough Stores.<\/p>",
@@ -361,7 +361,7 @@
     }
   },
   "order": [
-    "banner",
+    "home_page_banner",
     "image_slider",
     "our_stores",
     "international_stores",
