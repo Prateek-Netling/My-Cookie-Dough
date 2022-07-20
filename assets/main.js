@@ -60,7 +60,8 @@ $('.carousel2').owlCarousel({
     jQuery('html').addClass('ie');
   };
 
-  $( "#datepicker" ).datepicker();
+  var $j = jQuery.noConflict();
+  $j( "#datepicker" ).datepicker();
   
 });
 var s = skrollr.init();
