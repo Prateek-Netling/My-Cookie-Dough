@@ -13,10 +13,16 @@
       "type": "what-we-offer",
       "settings": {
       }
+    },
+    "gifting_ideas": {
+      "type": "gifting-ideas",
+      "settings": {
+      }
     }
   },
   "order": [
     "corporate_banner",
-    "what_we_offer"
+    "what_we_offer",
+    "gifting_ideas"
   ]
 }
