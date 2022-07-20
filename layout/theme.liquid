@@ -9,8 +9,7 @@
 <!--     {% if page_url == '/' %}
     	<title>Home | My Cookie Dough</title>
     {% else %} -->
-<!--     	<title>{{ page.title }} | My Cookie Dough</title> -->
-    
+    	<title>{{ request.path }} | My Cookie Dough</title>
 <!--    	{% endif %} -->
     <!-- Stylesheets -->
     {{ 'bootstrap.css' | asset_url | stylesheet_tag }}
