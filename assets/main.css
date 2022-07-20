@@ -6,75 +6,75 @@
     ========================================================================== */
 @font-face {
   font-family: "Vodka Sans";
-  src: url("vodkasans-regular.eot");
-  src: url("vodkasans-regular.eot?#iefix") format("embedded-opentype"), url("vodkasans-regular.woff") format("woff"), url("vodkasans-regular.ttf") format("truetype"), url("vodkasans-regular.svg#Vodka Sans") format("svg");
+  src: url("../fonts/vodkasans-regular.eot");
+  src: url("../fonts/vodkasans-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/vodkasans-regular.woff") format("woff"), url("../fonts/vodkasans-regular.ttf") format("truetype"), url("../fonts/vodkasans-regular.svg#Vodka Sans") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Vodka Sans";
-    src: url("vodkasans-regular.svg#Vodka Sans") format("svg"); } }
+    src: url("../fonts/vodkasans-regular.svg#Vodka Sans") format("svg"); } }
 
 @font-face {
   font-family: "Buenos Aires";
-  src: url("buenosaires-light.eot");
-  src: url("buenosaires-light.eot?#iefix") format("embedded-opentype"), url("buenosaires-light.woff") format("woff"), url("buenosaires-light.ttf") format("truetype"), url("buenosaires-light.svg#Buenos Aires") format("svg");
+  src: url("../fonts/buenosaires-light.eot");
+  src: url("../fonts/buenosaires-light.eot?#iefix") format("embedded-opentype"), url("../fonts/buenosaires-light.woff") format("woff"), url("../fonts/buenosaires-light.ttf") format("truetype"), url("../fonts/buenosaires-light.svg#Buenos Aires") format("svg");
   font-weight: 300;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Buenos Aires";
-    src: url("buenosaires-light.svg#Buenos Aires") format("svg"); } }
+    src: url("../fonts/buenosaires-light.svg#Buenos Aires") format("svg"); } }
 
 @font-face {
   font-family: "Buenos Aires";
-  src: url("buenosaires-regular.eot");
-  src: url("buenosaires-regular.eot?#iefix") format("embedded-opentype"), url("buenosaires-regular.woff") format("woff"), url("buenosaires-regular.ttf") format("truetype"), url("buenosaires-regular.svg#Buenos Aires") format("svg");
+  src: url("../fonts/buenosaires-regular.eot");
+  src: url("../fonts/buenosaires-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/buenosaires-regular.woff") format("woff"), url("../fonts/buenosaires-regular.ttf") format("truetype"), url("../fonts/buenosaires-regular.svg#Buenos Aires") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Buenos Aires";
-    src: url("buenosaires-regular.svg#Buenos Aires") format("svg"); } }
+    src: url("../fonts/buenosaires-regular.svg#Buenos Aires") format("svg"); } }
 
 @font-face {
   font-family: "Buenos Aires";
-  src: url("buenosaires-bold.eot");
-  src: url("buenosaires-bold.eot?#iefix") format("embedded-opentype"), url("buenosaires-bold.woff") format("woff"), url("buenosaires-bold.ttf") format("truetype"), url("buenosaires-bold.svg#Buenos Aires") format("svg");
+  src: url("../fonts/buenosaires-bold.eot");
+  src: url("../fonts/buenosaires-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/buenosaires-bold.woff") format("woff"), url("../fonts/buenosaires-bold.ttf") format("truetype"), url("../fonts/buenosaires-bold.svg#Buenos Aires") format("svg");
   font-weight: 700;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Buenos Aires";
-    src: url("buenosaires-bold.svg#Buenos Aires") format("svg"); } }
+    src: url("../fonts/buenosaires-bold.svg#Buenos Aires") format("svg"); } }
 
 @font-face {
   font-family: "MohrRounded";
-  src: url("mohrrounded-regular.eot");
-  src: url("mohrrounded-regular.eot?#iefix") format("embedded-opentype"), url("mohrrounded-regular.woff") format("woff"), url("mohrrounded-regular.ttf") format("truetype"), url("mohrrounded-regular.svg#MohrRounded") format("svg");
+  src: url("../fonts/mohrrounded-regular.eot");
+  src: url("../fonts/mohrrounded-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/mohrrounded-regular.woff") format("woff"), url("../fonts/mohrrounded-regular.ttf") format("truetype"), url("../fonts/mohrrounded-regular.svg#MohrRounded") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "MohrRounded";
-    src: url("mohrrounded-regular.svg#MohrRounded") format("svg"); } }
+    src: url("../fonts/mohrrounded-regular.svg#MohrRounded") format("svg"); } }
 
 @font-face {
   font-family: "MohrRounded";
-  src: url("mohrrounded-black.eot");
-  src: url("mohrrounded-black.eot?#iefix") format("embedded-opentype"), url("mohrrounded-black.woff") format("woff"), url("mohrrounded-black.ttf") format("truetype"), url("mohrrounded-black.svg#MohrRounded") format("svg");
+  src: url("../fonts/mohrrounded-black.eot");
+  src: url("../fonts/mohrrounded-black.eot?#iefix") format("embedded-opentype"), url("../fonts/mohrrounded-black.woff") format("woff"), url("../fonts/mohrrounded-black.ttf") format("truetype"), url("../fonts/mohrrounded-black.svg#MohrRounded") format("svg");
   font-weight: 900;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "MohrRounded";
-    src: url("mohrrounded-black.svg#MohrRounded") format("svg"); } }
+    src: url("../fonts/mohrrounded-black.svg#MohrRounded") format("svg"); } }
 
 /*  ==========================================================================
 	Global Settings & Utilities
@@ -138,6 +138,10 @@ h4 {
       font-size: 1.875rem; } }
 
 @media (max-width: 767px) {
+  h1 {
+    font-size: 1.875rem; }
+  h4 {
+    font-size: 1.5rem; }
   .display-1 {
     font-size: 1.875rem;
     line-height: calc(34 / 30); }
@@ -151,6 +155,16 @@ h4 {
     font-size: 1.75rem; }
     .display-2 small {
       font-size: 1.375rem; } }
+
+.relative {
+  position: relative !important; }
+
+.row1 {
+  margin-left: -1px;
+  margin-right: -1px; }
+  .row1 > * {
+    padding-left: 1px;
+    padding-right: 1px; }
 
 /*  ==========================================================================
 	Layouts
@@ -240,28 +254,6 @@ html.skrollr-mobile {
     font-size: 2.5rem;
     line-height: 1;
     margin-bottom: 53px; }
-  #page-head .cloud {
-    position: absolute;
-    width: 100%;
-    background: url("cloud1.svg") no-repeat;
-    background-size: auto 93px;
-    position: absolute;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    height: 84px;
-    -webkit-animation-duration: 120s;
-    animation-duration: 120s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-name: Float, FadeFloat;
-    animation-name: Float, FadeFloat;
-    z-index: 1;
-    height: 93px; }
   #page-head .cloud1 {
     top: 134px;
     -webkit-animation-delay: -160.69230769s;
@@ -293,6 +285,13 @@ html.skrollr-mobile {
     -webkit-animation-duration: 200s;
             animation-duration: 200s;
     background-size: 99px 60px; }
+  #page-head.page-head2 h1 {
+    line-height: 1; }
+  #page-head.page-head2 p {
+    font-size: 1.5rem;
+    line-height: calc(32 / 24);
+    font-family: "Buenos Aires", sans-serif, Arial;
+    font-weight: 300; }
 
 @media (max-width: 991px) {
   #page-head p {
@@ -324,7 +323,7 @@ html.skrollr-mobile {
 .menu-btn {
   width: 84px;
   height: 137px;
-  background: url("menu-bg.png") no-repeat;
+  background: url("../images/menu-bg.png") no-repeat;
   background-size: 100% 100%;
   color: #fff;
   display: -webkit-inline-flex;
@@ -633,6 +632,10 @@ a, .btn {
   line-height: 28px;
   padding: 11px 15px; }
 
+.btn-xl {
+  font-size: 1.5rem;
+  padding: 15px 22px; }
+
 .toggle-btn {
   font-size: 1.375rem;
   display: -webkit-inline-flex;
@@ -663,7 +666,10 @@ a, .btn {
   .btn {
     padding: 11px 15px;
     font-size: 1.125rem;
-    line-height: 28px; } }
+    line-height: 28px; }
+  .btn-xl {
+    font-size: 1.25rem;
+    padding: 14px 17px; } }
 
 @-webkit-keyframes wave {
   0% {
@@ -713,6 +719,25 @@ a, .btn {
     -webkit-transform: translateX(-15%) translateZ(0);
             transform: translateX(-15%) translateZ(0); } }
 
+.cloud {
+  position: absolute;
+  width: 100%;
+  background: url("../images/cloud1.svg") no-repeat;
+  background-size: auto 100%;
+  -webkit-animation-duration: 120s;
+  animation-duration: 120s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: Float, FadeFloat;
+  animation-name: Float, FadeFloat;
+  z-index: 1;
+  height: 93px;
+  display: block; }
+
 /*
 *bg color21
 */
@@ -747,6 +772,34 @@ a, .btn {
     overflow: unset; }
 
 /*
+*carousel3
+*/
+.carousel2 .owl-stage-outer {
+  overflow: initial; }
+
+.carousel2 .owl-stage {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .carousel2 .owl-stage .item {
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 5px; }
+    .carousel2 .owl-stage .item img {
+      max-height: 36px; }
+
+/*
 *sociables
 */
 .sociables {
@@ -762,6 +815,12 @@ a, .btn {
     position: relative; }
     .sociables.alt li {
       margin-left: 0; }
+    .sociables.alt a {
+      display: inline-block; }
+      .sociables.alt a:hover {
+        -webkit-transform: scale(1.1) rotate(5deg);
+            -ms-transform: scale(1.1) rotate(5deg);
+                transform: scale(1.1) rotate(5deg); }
     .sociables.alt .twitter {
       position: relative;
       top: 27px;
@@ -778,6 +837,9 @@ a, .btn {
 /*
 *form
 */
+.form .form-group {
+  margin-bottom: 34px; }
+
 .form .form-control {
   border: 2px solid #672567;
   border-radius: 10px;
@@ -799,6 +861,17 @@ a, .btn {
 
 .form .form-control::placeholder {
   color: #9A9A9A; }
+
+.form textarea {
+  resize: none;
+  min-height: 196px; }
+
+.form .calendar {
+  background-image: url("../images/calendar-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+  background-position: center right 25px;
+  padding-right: 55px; }
 
 @media (max-width: 767px) {
   .form .form-control {
@@ -823,6 +896,42 @@ a, .btn {
 @media (max-width: 767px) {
   .newsletter-form .btn {
     min-width: auto; } }
+
+/*
+*file-upload
+*/
+.file-upload {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative; }
+  .file-upload .btn {
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    margin-right: 27px; }
+  .file-upload .file-name {
+    font-size: 1.5rem;
+    color: #672567;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+  .file-upload input {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden; }
+
+@media (max-width: 767px) {
+  .file-upload .file-name {
+    font-size: 0.875rem; }
+  .file-upload .btn {
+    margin-right: 12px; } }
 
 /*
 *box
@@ -924,6 +1033,33 @@ a, .btn {
       font-size: 1.125rem; } }
 
 /*
+*list2
+*/
+.list2 {
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 40px; }
+  .list2 li {
+    font-size: 1.375rem;
+    line-height: calc(30 / 22);
+    color: #fff;
+    margin-bottom: 26px;
+    position: relative;
+    padding-left: 40px; }
+    .list2 li:before {
+      content: '';
+      width: 26px;
+      height: 16px;
+      background: url("../images/cloud-list.svg") no-repeat;
+      position: absolute;
+      top: 7px;
+      left: 0; }
+
+@media (max-width: 767px) {
+  .list2 li {
+    font-size: 1.125rem; } }
+
+/*
 *wave 
 */
 .wave1 {
@@ -935,10 +1071,10 @@ a, .btn {
     left: 0;
     height: 42px;
     width: 100%;
-    background: url("wave1.png") repeat-x center center;
+    background: url("../images/wave1.png") repeat-x center center;
     background-size: 748px 42px;
-    -webkit-animation: wave 500s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite;
-            animation: wave 500s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite; }
+    -webkit-animation: wave 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite;
+            animation: wave 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite; }
   .wave1:after {
     content: '';
     position: absolute;
@@ -946,16 +1082,50 @@ a, .btn {
     left: 0;
     height: 42px;
     width: 100%;
-    background: url("wave2.png") repeat-x center center;
+    background: url("../images/wave2.png") repeat-x center center;
     background-size: 787px 35px;
-    -webkit-animation: wave-reverse 500s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite;
-            animation: wave-reverse 500s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite; }
+    -webkit-animation: wave-reverse 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite;
+            animation: wave-reverse 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite; }
 
 /*
 *section
 */
 .section {
   padding: 50px 0; }
+  .section.relative .container {
+    position: relative;
+    z-index: 10; }
+  .section .cloud1 {
+    top: 50%;
+    -webkit-animation-delay: -160.69230769s;
+            animation-delay: -160.69230769s;
+    -webkit-animation-duration: 88s;
+            animation-duration: 88s;
+    background-size: 137px 84px; }
+  .section .cloud2 {
+    bottom: 50px;
+    height: 60px;
+    -webkit-animation-delay: -158.69230769s;
+            animation-delay: -158.69230769s;
+    -webkit-animation-duration: 88s;
+            animation-duration: 88s;
+    background-size: 99px 60px; }
+  .section .cloud3 {
+    top: 124px;
+    height: 113px;
+    -webkit-animation-delay: -18.46153846s;
+            animation-delay: -18.46153846s;
+    -webkit-animation-duration: 210s;
+            animation-duration: 210s;
+    background-size: 186px 113px; }
+  .section .cloud4 {
+    top: 50%;
+    height: 60px;
+    -webkit-animation-delay: -22.46153846s;
+            animation-delay: -22.46153846s;
+    -webkit-animation-duration: 200s;
+            animation-duration: 200s;
+    background-size: 99px 60px; }
 
 .column {
   margin-bottom: 30px; }
@@ -970,7 +1140,7 @@ a, .btn {
     position: absolute;
     width: 100%;
     height: 47.78px;
-    background: url("sign-up-before.png");
+    background: url("../images/sign-up-before.png");
     background-repeat: repeat-x;
     background-size: 1460px 47.78px;
     top: -17px;
@@ -995,7 +1165,7 @@ a, .btn {
     top: 50%;
     margin-top: -34px;
     height: 45px;
-    background: url("cloud2.svg") no-repeat;
+    background: url("../images/cloud2.svg") no-repeat;
     background-size: 73px 45px;
     pointer-events: none;
     -webkit-animation-duration: 120s;
@@ -1024,6 +1194,78 @@ a, .btn {
 */
 .our-stores {
   padding: 80px 0 50px; }
+
+/*
+*enquiry
+*/
+.enquiry {
+  padding: 85px 0 70px; }
+  .enquiry h2 {
+    font-family: "Vodka Sans", sans-serif, Arial; }
+
+@media (max-width: 767px) {
+  .enquiry {
+    padding: 50px 0; } }
+
+/*
+.owl-carousel .owl-stage {
+  transform: none !important;
+  transition-timing-function: linear !important;
+}
+*/
+/*
+*we offer
+*/
+.we-offer {
+  position: relative;
+  padding: 79px 0 105px; }
+  .we-offer:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 47.78px;
+    background: url("../images/we-offer-before.png");
+    background-repeat: repeat-x;
+    background-size: 752px 64px;
+    top: -23px;
+    left: 0;
+    -webkit-animation: wave 200s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite;
+            animation: wave 200s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite; }
+  .we-offer .image {
+    border-radius: 10px;
+    overflow: hidden; }
+  .we-offer h2 {
+    font-family: "Vodka Sans", sans-serif, Arial;
+    color: #F7E8F3;
+    font-weight: 400; }
+
+@media (max-width: 767px) {
+  .we-offer {
+    padding: 50px 0; } }
+
+/*
+*gifting-ideas
+*/
+.gifting-ideas h2 {
+  font-family: "Vodka Sans", sans-serif, Arial; }
+
+.gifting-ideas .row1 .image {
+  margin-bottom: 31px; }
+
+.gifting-ideas .row1 h4 {
+  padding: 0 20px; }
+
+@media (max-width: 1199px) {
+  .gifting-ideas h4 {
+    font-size: 1.625rem; } }
+
+@media (max-width: 767px) {
+  .gifting-ideas {
+    padding-bottom: 20px; } }
+
+@media (min-width: 1440px) {
+  .gifting-ideas .row1 {
+    margin-right: -63px; } }
 
 /*  ==========================================================================
 	Vendor
