@@ -5,7 +5,7 @@
               <div class="col-md-10">
                 <div class="row mb-4">
                   <div class="col-lg-8">
-                    <h2>Enquiry form</h2>
+                    <h2>{{ section.settings.title }}</h2>
                     <p>Get in touch today! We will do our very best to meet your bespoke corporate gifting needs! </p>
                   </div>
                 </div>
@@ -73,7 +73,14 @@
 {% schema %}
   {
     "name": "Enquiry Form",
-    "settings": [],
+    "settings": [
+		{
+			"id": "title",
+			"type": "text",
+			"label": "Title",
+			"default": "Enquiry form"
+		}
+	],
 	"presets": [
 		{
 			"name": "Enquiry Form"
