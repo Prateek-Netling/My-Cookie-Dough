@@ -50,7 +50,7 @@
                     </div>
                     <div class="row">
                       <div class="col-md-12 form-group">
-                        <button type="button" class="btn btn-primary w-100">Send Enquiry</button>
+                        <button type="button" class="btn btn-primary w-100">{{ section.settings.button-label }}</button>
                       </div>
                     </div>
                   </form>
@@ -85,6 +85,12 @@
 			"type": "richtext",
 			"label": "Text",
 			"default": "<p>Get in touch today! We will do our very best to meet your bespoke corporate gifting needs! </p>"
+		},
+		{
+			"id": "button-label",
+			"type": "text",
+			"label": "Send Button Label",
+			"default": "Send Enquiry"
 		}
 	],
 	"presets": [
