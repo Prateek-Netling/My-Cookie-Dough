@@ -1,4 +1,3 @@
-$(function(){
 $(document).ready(function() {
 
   
@@ -67,6 +66,4 @@ $('.carousel2').owlCarousel({
 var s = skrollr.init();
 $(window).load(function() {
   objectFitImages();
-});
-
 });
