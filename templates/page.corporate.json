@@ -14,11 +14,6 @@
       "settings": {
       }
     },
-    "what_we_offer_2": {
-      "type": "what-we-offer-2",
-      "settings": {
-      }
-    },
     "gifting_ideas": {
       "type": "gifting-ideas",
       "blocks": {
@@ -77,7 +72,6 @@
   "order": [
     "corporate_banner",
     "what_we_offer",
-    "what_we_offer_2",
     "gifting_ideas",
     "companies",
     "enquiry_form"
