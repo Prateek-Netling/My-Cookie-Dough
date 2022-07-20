@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "corporate_banner": {
+      "type": "corporate-banner",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "corporate_banner"
+  ]
+}
