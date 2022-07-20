@@ -2,7 +2,7 @@
         <div class="section bg-primary-light">
           <div class="container">
             <header class="text-center mb-md-5">
-              <h4>Companies we’ve worked with</h4>
+              <h4>{{ section.settings.heading }}</h4>
             </header>
             <div class="owl-carousel carousel2">
               <div class="item">
@@ -37,7 +37,14 @@
 {% schema %}
   {
     "name": "Companies",
-    "settings": [],
+    "settings": [
+		{
+			"id": "heading",
+			"type": "text",
+			"label": "Heading",
+			"default": "Companies we’ve worked with"
+		}
+	],
 	"presets": [
 		{
 			"name": "Companies"
