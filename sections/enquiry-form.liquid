@@ -104,8 +104,8 @@
 {% javascript %}
 
 let formFile = document.getElementById("formFile");
-formFile.addEventListener("change", function () {
-  console.log("Changed");
+formFile.addEventListener("change", function (e) {
+  console.log(e);
 });
 
 {% endjavascript %}
