@@ -6,7 +6,7 @@
                 <div class="row mb-4">
                   <div class="col-lg-8">
                     <h2>{{ section.settings.title }}</h2>
-                    <p>Get in touch today! We will do our very best to meet your bespoke corporate gifting needs! </p>
+                    {{ section.settings.text }}
                   </div>
                 </div>
                 <div class="form">
@@ -79,6 +79,12 @@
 			"type": "text",
 			"label": "Title",
 			"default": "Enquiry form"
+		},
+		{
+			"id": "text",
+			"type": "richtext",
+			"label": "Text",
+			"default": "<p>Get in touch today! We will do our very best to meet your bespoke corporate gifting needs! </p>"
 		}
 	],
 	"presets": [
