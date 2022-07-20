@@ -8,9 +8,15 @@
         "content": "<p>We’ve got your back when it comes to your corporate gifting. Whether you need some of our indulgent bakes for employees working at home, hundreds of cookies for an event or regular cookie deliveries to your office.<\/p>",
         "button-label": "Enquire Now"
       }
+    },
+    "what_we_offer": {
+      "type": "what-we-offer",
+      "settings": {
+      }
     }
   },
   "order": [
-    "corporate_banner"
+    "corporate_banner",
+    "what_we_offer"
   ]
 }
