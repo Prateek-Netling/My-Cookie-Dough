@@ -3,10 +3,10 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-5 column mb-lg-0 pe-lg-5 pt-lg-5">
-                <h2>Gifting ideas</h2>
-                <p>We’ve got your back when it comes to your corporate gifting. Whether you need some of our indulgent bakes for employees working at home, hundreds of cookies for an event or regular cookie deliveries to your office.</p>
+                <h2>{{ section.settings.heading }}</h2>
+                {{ section.settings.content }}
                 <footer class="pt-lg-3">
-                  <a href="#" class="btn btn-primary btn-xl w-100">Enquire Now</a>
+                  <a href="#" class="btn btn-primary btn-xl w-100">{{ section.settings.button-label }}</a>
                 </footer>
               </div>
               <div class="col-lg-7 right-column">
@@ -50,17 +50,20 @@
 		{
 			"id": "heading",
 			"type": "text",
-			"label": "Heading"
+			"label": "Heading",
+			"default": "Gifting ideas"
 		},
 		{
 			"id": "content",
 			"type": "richtext",
-			"label": "Content"
+			"label": "Content",
+			"default": "<p>We’ve got your back when it comes to your corporate gifting. Whether you need some of our indulgent bakes for employees working at home, hundreds of cookies for an event or regular cookie deliveries to your office.</p>"
 		},
 		{
 			"id": "button-label",
 			"type": "text",
-			"label": "Button Label"
+			"label": "Button Label",
+			"default": "Enquire Now"
 		}
 	],
 	"presets": [
