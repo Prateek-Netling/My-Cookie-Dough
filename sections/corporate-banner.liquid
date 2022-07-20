@@ -22,7 +22,28 @@
 {% schema %}
   {
     "name": "Corporate Banner",
-    "settings": []
+    "settings": [
+		{
+			"id": "image",
+			"type": "image_picker",
+			"label": "Image"
+		},
+		{
+			"id": "heading",
+			"type": "text",
+			"label": "Heading"
+		},
+		{
+			"id": "content",
+			"type": "richtext",
+			"label": "Content"
+		},
+		{
+			"id": "button-label",
+			"type": "text",
+			"label": "Button Label"
+		}
+	]
   }
 {% endschema %}
 
