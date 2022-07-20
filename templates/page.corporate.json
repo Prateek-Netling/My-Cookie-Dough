@@ -62,12 +62,18 @@
       "type": "companies",
       "settings": {
       }
+    },
+    "enquiry_form": {
+      "type": "enquiry-form",
+      "settings": {
+      }
     }
   },
   "order": [
     "corporate_banner",
     "what_we_offer",
     "gifting_ideas",
-    "companies"
+    "companies",
+    "enquiry_form"
   ]
 }
