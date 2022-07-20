@@ -27,13 +27,6 @@
     },
     "content_for_index": [
 
-    ],
-    "content_for_corporate": [
-      {
-        "type": "corporate-banner",
-        "settings": {
-        }
-      }
     ]
   }
 }
