@@ -512,6 +512,50 @@
       },
       "international-stores": {
         "type": "international-stores",
+        "blocks": {
+          "61ab7f06-642e-4ea4-a17c-01515939b42e": {
+            "type": "store",
+            "settings": {
+              "city": "Kuala Lumpur Malaysia",
+              "location": "<li> Pavilion KL Mall <\/li>"
+            }
+          },
+          "d2f52b82-d32b-4cc4-9c2d-de543d968105": {
+            "type": "store",
+            "settings": {
+              "city": "Muscat, Oman",
+              "location": "<li> a) Souq Al Madina<\/li>       <li> b) Mall of Muscat<\/li>"
+            }
+          },
+          "9ed0b34e-1b3c-4feb-a2ac-9285406fcca2": {
+            "type": "store",
+            "settings": {
+              "city": "Bahrain, Manama",
+              "location": "<li> Oasis Mall<\/li>"
+            }
+          },
+          "e6e04df2-eae8-40d8-b409-d3f1ac780bd3": {
+            "type": "store",
+            "settings": {
+              "city": "Amman, Jordan",
+              "location": "<li> a) Abdoun<\/li>       <li> b) Khalda<\/li>"
+            }
+          },
+          "0b3cf2de-6de9-4339-8a3f-2429eface7fd": {
+            "type": "store",
+            "settings": {
+              "city": "Prague, Czech Republic",
+              "location": "<li> Westfield Chodov, Praha<\/li>"
+            }
+          }
+        },
+        "block_order": [
+          "61ab7f06-642e-4ea4-a17c-01515939b42e",
+          "d2f52b82-d32b-4cc4-9c2d-de543d968105",
+          "9ed0b34e-1b3c-4feb-a2ac-9285406fcca2",
+          "e6e04df2-eae8-40d8-b409-d3f1ac780bd3",
+          "0b3cf2de-6de9-4339-8a3f-2429eface7fd"
+        ],
         "settings": {
           "heading": "International stores",
           "more-stores": "More Stores opening soon including, Cyprus, Qatar, Belgium and more!"
