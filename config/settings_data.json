@@ -215,6 +215,120 @@
           "text": "<p>Experience moments of pure joy at<br\/>our My Cookie Dough Stores.<\/p>",
           "button-label": "View all locations"
         }
+      },
+      "image-slider": {
+        "type": "image-slider",
+        "blocks": {
+          "2fd4ccbf-9bad-49fe-a6cb-17c74176a300": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img1.jpg"
+            }
+          },
+          "4fc19815-9885-4648-88c1-46e8ba20b2d3": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img2.jpg"
+            }
+          },
+          "2e620738-cbb0-43fd-84e8-a7496bd32154": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img3.jpg"
+            }
+          },
+          "d03ed772-a6b6-48bf-ba69-933adfe9ace8": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img4.jpg"
+            }
+          },
+          "150fdbcf-af06-483a-acc8-ba0ed99b45fa": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img5.jpg"
+            }
+          },
+          "69ff81c3-6e7c-476c-ba22-e52004629477": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img6.jpg"
+            }
+          },
+          "c3953795-7419-40f3-8bf6-e5c3e5d06fa4": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img1.jpg"
+            }
+          },
+          "5d24d9bf-2ba0-42e1-9f9e-107521d8bd07": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img2.jpg"
+            }
+          },
+          "a2986418-c92a-4766-9650-784e88703a57": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img3.jpg"
+            }
+          },
+          "5febfe7d-1e4d-4f84-97f5-1d8547ce9b76": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img4.jpg"
+            }
+          },
+          "56ac8aa1-1177-4f08-8516-c13e793adbf0": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img5.jpg"
+            }
+          },
+          "43f52ca1-46a8-4253-b017-9493e6e7e155": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img6.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "2fd4ccbf-9bad-49fe-a6cb-17c74176a300",
+          "4fc19815-9885-4648-88c1-46e8ba20b2d3",
+          "2e620738-cbb0-43fd-84e8-a7496bd32154",
+          "d03ed772-a6b6-48bf-ba69-933adfe9ace8",
+          "150fdbcf-af06-483a-acc8-ba0ed99b45fa",
+          "69ff81c3-6e7c-476c-ba22-e52004629477",
+          "c3953795-7419-40f3-8bf6-e5c3e5d06fa4",
+          "5d24d9bf-2ba0-42e1-9f9e-107521d8bd07",
+          "a2986418-c92a-4766-9650-784e88703a57",
+          "5febfe7d-1e4d-4f84-97f5-1d8547ce9b76",
+          "56ac8aa1-1177-4f08-8516-c13e793adbf0",
+          "43f52ca1-46a8-4253-b017-9493e6e7e155"
+        ],
+        "settings": {
+          "keywords": ""
+        }
+      },
+      "our-stores": {
+        "type": "our-stores",
+        "settings": {
+          "more-store-label": "More UK Stores opening soon!"
+        }
+      },
+      "international-stores": {
+        "type": "international-stores",
+        "settings": {
+          "heading": "International stores",
+          "more-stores": "More Stores opening soon including, Cyprus, Qatar, Belgium and more!"
+        }
+      },
+      "email-subscription": {
+        "type": "email-subscription",
+        "settings": {
+          "heading": "Sign up below to stay up to date on our latest store openings and promotions",
+          "button-label": "Submit"
+        }
       }
     },
     "content_for_index": [
