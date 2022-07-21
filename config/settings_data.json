@@ -208,14 +208,6 @@
           "button-label": "Send Enquiry"
         }
       },
-      "home-page-banner": {
-        "type": "home-page-banner",
-        "settings": {
-          "heading": "MyCookiedough<sup>r<\/sup><br> Stores",
-          "text": "<p>Experience moments of pure joy at<br\/>our My Cookie Dough Stores.<\/p>",
-          "button-label": "View all locations"
-        }
-      },
       "image-slider": {
         "type": "image-slider",
         "blocks": {
@@ -566,6 +558,14 @@
         "settings": {
           "heading": "Sign up below to stay up to date on our latest store openings and promotions",
           "button-label": "Submit"
+        }
+      },
+      "stores-banner": {
+        "type": "stores-banner",
+        "settings": {
+          "heading": "MyCookiedough<sup>r<\/sup><br> Stores",
+          "text": "<p>Experience moments of pure joy at<br\/>our My Cookie Dough Stores.<\/p>",
+          "button-label": "View all locations"
         }
       }
     },
