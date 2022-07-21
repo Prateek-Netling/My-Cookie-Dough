@@ -104,8 +104,14 @@
 {% javascript %}
 
 let formFile = document.getElementById("formFile");
-formFile.addEventListener("change", function (e) {
-  console.log(this.value);
+let fileName = document.querySelector('.file-name');
+formFile.addEventListener("change", function () {
+    if(formFile.files[0] != undefined){
+        fileName.innerText = formFile.files[0].name;
+    }
+	else{
+		fileName.innerText = "No file chosen";
+	}
 });
 
 {% endjavascript %}
