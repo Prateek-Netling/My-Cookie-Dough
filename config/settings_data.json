@@ -148,11 +148,39 @@
             "settings": {
               "file-name": "https:\/\/cdn.shopify.com\/s\/files\/1\/0620\/4879\/6911\/files\/logo4.svg?v=1658388033"
             }
+          },
+          "451e99f3-27e0-4ddd-99a2-55eed7dadeb5": {
+            "type": "company",
+            "settings": {
+              "file-name": "https:\/\/cdn.shopify.com\/s\/files\/1\/0620\/4879\/6911\/files\/logo5.svg?v=1658388033"
+            }
+          },
+          "8d5d7244-4a18-446c-9b30-0bcdb5c2025a": {
+            "type": "company",
+            "settings": {
+              "file-name": "https:\/\/cdn.shopify.com\/s\/files\/1\/0620\/4879\/6911\/files\/logo6.svg?v=1658388033"
+            }
+          },
+          "4750dbae-79ba-4a3e-ade4-43a35f3ceef6": {
+            "type": "company",
+            "settings": {
+              "file-name": "https:\/\/cdn.shopify.com\/s\/files\/1\/0620\/4879\/6911\/files\/logo7.svg?v=1658388033"
+            }
+          },
+          "0c46d62f-54ed-4e0f-9497-6926ee9a2652": {
+            "type": "company",
+            "settings": {
+              "file-name": "https:\/\/cdn.shopify.com\/s\/files\/1\/0620\/4879\/6911\/files\/logo8.svg?v=1658388033"
+            }
           }
         },
         "block_order": [
           "7a360f61-e3bf-4336-b486-d5f666a725d4",
-          "83e41a49-e759-4746-903b-21596e9a18cb"
+          "83e41a49-e759-4746-903b-21596e9a18cb",
+          "451e99f3-27e0-4ddd-99a2-55eed7dadeb5",
+          "8d5d7244-4a18-446c-9b30-0bcdb5c2025a",
+          "4750dbae-79ba-4a3e-ade4-43a35f3ceef6",
+          "0c46d62f-54ed-4e0f-9497-6926ee9a2652"
         ],
         "settings": {
           "heading": "Companies we’ve worked with"
