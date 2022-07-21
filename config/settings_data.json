@@ -23,6 +23,33 @@
           "tiktok-url": "https:\/\/www.tiktok.com\/",
           "copyright-title": "© 2022, MyCookieDough. All rights reserved."
         }
+      },
+      "corporate-banner": {
+        "type": "corporate-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/corporate-cookies-flipped.png",
+          "heading": "Corporate gifting",
+          "content": "<p>We’ve got your back when it comes to your corporate gifting. Whether you need some of our indulgent bakes for employees working at home, hundreds of cookies for an event or regular cookie deliveries to your office.<\/p>",
+          "button-label": "Enquire Now"
+        }
+      },
+      "what-we-offer": {
+        "type": "what-we-offer",
+        "settings": {
+        }
+      },
+      "what-we-offer-2": {
+        "type": "what-we-offer-2",
+        "settings": {
+        }
+      },
+      "gifting-ideas": {
+        "type": "gifting-ideas",
+        "settings": {
+          "heading": "Gifting ideas",
+          "content": "<p>We’ve got your back when it comes to your corporate gifting. Whether you need some of our indulgent bakes for employees working at home, hundreds of cookies for an event or regular cookie deliveries to your office.<\/p>",
+          "button-label": "Enquire Now"
+        }
       }
     },
     "content_for_index": [
