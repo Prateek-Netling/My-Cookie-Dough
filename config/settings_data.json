@@ -33,16 +33,6 @@
           "button-label": "Enquire Now"
         }
       },
-      "what-we-offer": {
-        "type": "what-we-offer",
-        "settings": {
-        }
-      },
-      "what-we-offer-2": {
-        "type": "what-we-offer-2",
-        "settings": {
-        }
-      },
       "gifting-ideas": {
         "type": "gifting-ideas",
         "blocks": {
@@ -85,6 +75,77 @@
           "heading": "Gifting ideas",
           "content": "<p>We’ve got your back when it comes to your corporate gifting. Whether you need some of our indulgent bakes for employees working at home, hundreds of cookies for an event or regular cookie deliveries to your office.<\/p>",
           "button-label": "Enquire Now"
+        }
+      },
+      "what-we-offer-image": {
+        "type": "what-we-offer-image",
+        "settings": {
+        }
+      },
+      "what-we-offer-content": {
+        "type": "what-we-offer-content",
+        "blocks": {
+          "62d2c580-ae9d-45b6-9124-80a21a08110a": {
+            "type": "offer",
+            "settings": {
+              "offer-text": "Large orders for events at your offices or other locations"
+            }
+          },
+          "b89b48c4-dc6c-47bc-8586-98f20db41251": {
+            "type": "offer",
+            "settings": {
+              "offer-text": "Birthday gifts for employees"
+            }
+          },
+          "4ad8ce86-a2b4-42bb-9c23-b78cb9afa26a": {
+            "type": "offer",
+            "settings": {
+              "offer-text": "Multi-address shipping for at home employees"
+            }
+          },
+          "a9de3ff1-d899-4ebe-9a79-1a82abba80d0": {
+            "type": "offer",
+            "settings": {
+              "offer-text": "Christmas and seasonal gifts"
+            }
+          },
+          "7f4c14da-341f-4418-ba04-60634cb3c49d": {
+            "type": "offer",
+            "settings": {
+              "offer-text": "Regular office cookie deliveries"
+            }
+          },
+          "f74f3e78-6241-4b82-9ae4-9bfcf3f88890": {
+            "type": "offer",
+            "settings": {
+              "offer-text": "Co-branded gift cards\/notes (that we can support design and include in your gifts)"
+            }
+          }
+        },
+        "block_order": [
+          "62d2c580-ae9d-45b6-9124-80a21a08110a",
+          "b89b48c4-dc6c-47bc-8586-98f20db41251",
+          "4ad8ce86-a2b4-42bb-9c23-b78cb9afa26a",
+          "a9de3ff1-d899-4ebe-9a79-1a82abba80d0",
+          "7f4c14da-341f-4418-ba04-60634cb3c49d",
+          "f74f3e78-6241-4b82-9ae4-9bfcf3f88890"
+        ],
+        "settings": {
+          "heading": "What we offer…"
+        }
+      },
+      "companies": {
+        "type": "companies",
+        "settings": {
+          "heading": "Companies we’ve worked with"
+        }
+      },
+      "enquiry-form": {
+        "type": "enquiry-form",
+        "settings": {
+          "title": "Enquiry form",
+          "text": "<p>Get in touch today! We will do our very best to meet your bespoke corporate gifting needs! <\/p>",
+          "button-label": "Send Enquiry"
         }
       }
     },
