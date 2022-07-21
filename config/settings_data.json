@@ -136,6 +136,17 @@
       },
       "companies": {
         "type": "companies",
+        "blocks": {
+          "20e57cda-7b74-474b-8d8c-6f3176448822": {
+            "type": "company",
+            "settings": {
+              "file-name": "logo3.svg"
+            }
+          }
+        },
+        "block_order": [
+          "20e57cda-7b74-474b-8d8c-6f3176448822"
+        ],
         "settings": {
           "heading": "Companies we’ve worked with"
         }
