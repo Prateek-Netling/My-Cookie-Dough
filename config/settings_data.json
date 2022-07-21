@@ -172,6 +172,18 @@
             "settings": {
               "file-name": "https:\/\/cdn.shopify.com\/s\/files\/1\/0620\/4879\/6911\/files\/logo8.svg?v=1658388033"
             }
+          },
+          "c19683b2-4a30-4af1-a7d0-073b4bab2c58": {
+            "type": "company",
+            "settings": {
+              "file-name": "https:\/\/cdn.shopify.com\/s\/files\/1\/0620\/4879\/6911\/files\/logo9.svg?v=1658388033"
+            }
+          },
+          "1d4b036d-70b1-4e1b-837e-15fb0a097bb3": {
+            "type": "company",
+            "settings": {
+              "file-name": "https:\/\/cdn.shopify.com\/s\/files\/1\/0620\/4879\/6911\/files\/logo10.svg?v=1658388033"
+            }
           }
         },
         "block_order": [
@@ -180,7 +192,9 @@
           "451e99f3-27e0-4ddd-99a2-55eed7dadeb5",
           "8d5d7244-4a18-446c-9b30-0bcdb5c2025a",
           "4750dbae-79ba-4a3e-ade4-43a35f3ceef6",
-          "0c46d62f-54ed-4e0f-9497-6926ee9a2652"
+          "0c46d62f-54ed-4e0f-9497-6926ee9a2652",
+          "c19683b2-4a30-4af1-a7d0-073b4bab2c58",
+          "1d4b036d-70b1-4e1b-837e-15fb0a097bb3"
         ],
         "settings": {
           "heading": "Companies we’ve worked with"
