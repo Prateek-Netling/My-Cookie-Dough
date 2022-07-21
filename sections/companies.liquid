@@ -5,30 +5,14 @@
               <h4>{{ section.settings.heading }}</h4>
             </header>
             <div class="owl-carousel carousel2">
-              <div class="item">
-                <img src="{{ 'logo3.svg' | asset_url }}" alt="logo">
-              </div>
-              <div class="item">
-                <img src="{{ 'logo4.svg' | asset_url }}" alt="logo">
-              </div>
-              <div class="item">
-                <img src="{{ 'logo5.svg' | asset_url }}" alt="logo">
-              </div>
-              <div class="item">
-                <img src="{{ 'logo6.svg' | asset_url }}" alt="logo">
-              </div>
-              <div class="item">
-                <img src="{{ 'logo7.svg' | asset_url }}" alt="logo">
-              </div>
-              <div class="item">
-                <img src="{{ 'logo8.svg' | asset_url }}" alt="logo">
-              </div>
-              <div class="item">
-                <img src="{{ 'logo9.svg' | asset_url }}" alt="logo">
-              </div>
-              <div class="item">
-                <img src="{{ 'logo10.svg' | asset_url }}" alt="logo">
-              </div>
+              {% for block in section.blocks %}
+              	{% case block.type %}
+              	  {% when 'company %}
+                    <div class="item">
+                      <img src="{{ 'block.settings.file-name' | asset_url }}" alt="logo">
+                    </div>
+             	{% endcase %}
+              {% endfor %}
             </div>
           </div>
         </div>
