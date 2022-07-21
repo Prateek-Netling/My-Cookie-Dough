@@ -8,7 +8,9 @@
               {% for block in section.blocks %}
               	{% case block.type %}
               	  {% when 'company' %}
-              		<h1>Hello</h1>
+                    <div class="item">
+                      <img src="{{ 'logo3.svg' | asset_url }}" alt="logo">
+                    </div>
              	{% endcase %}
               {% endfor %}
             </div>
