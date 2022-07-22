@@ -208,100 +208,6 @@
           "button-label": "Send Enquiry"
         }
       },
-      "image-slider": {
-        "type": "image-slider",
-        "blocks": {
-          "2fd4ccbf-9bad-49fe-a6cb-17c74176a300": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img1.jpg"
-            }
-          },
-          "4fc19815-9885-4648-88c1-46e8ba20b2d3": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img2.jpg"
-            }
-          },
-          "2e620738-cbb0-43fd-84e8-a7496bd32154": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img3.jpg"
-            }
-          },
-          "d03ed772-a6b6-48bf-ba69-933adfe9ace8": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img4.jpg"
-            }
-          },
-          "150fdbcf-af06-483a-acc8-ba0ed99b45fa": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img5.jpg"
-            }
-          },
-          "69ff81c3-6e7c-476c-ba22-e52004629477": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img6.jpg"
-            }
-          },
-          "c3953795-7419-40f3-8bf6-e5c3e5d06fa4": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img1.jpg"
-            }
-          },
-          "5d24d9bf-2ba0-42e1-9f9e-107521d8bd07": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img2.jpg"
-            }
-          },
-          "a2986418-c92a-4766-9650-784e88703a57": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img3.jpg"
-            }
-          },
-          "5febfe7d-1e4d-4f84-97f5-1d8547ce9b76": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img4.jpg"
-            }
-          },
-          "56ac8aa1-1177-4f08-8516-c13e793adbf0": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img5.jpg"
-            }
-          },
-          "43f52ca1-46a8-4253-b017-9493e6e7e155": {
-            "type": "image",
-            "settings": {
-              "slider-image": "shopify:\/\/shop_images\/slide-img6.jpg"
-            }
-          }
-        },
-        "block_order": [
-          "2fd4ccbf-9bad-49fe-a6cb-17c74176a300",
-          "4fc19815-9885-4648-88c1-46e8ba20b2d3",
-          "2e620738-cbb0-43fd-84e8-a7496bd32154",
-          "d03ed772-a6b6-48bf-ba69-933adfe9ace8",
-          "150fdbcf-af06-483a-acc8-ba0ed99b45fa",
-          "69ff81c3-6e7c-476c-ba22-e52004629477",
-          "c3953795-7419-40f3-8bf6-e5c3e5d06fa4",
-          "5d24d9bf-2ba0-42e1-9f9e-107521d8bd07",
-          "a2986418-c92a-4766-9650-784e88703a57",
-          "5febfe7d-1e4d-4f84-97f5-1d8547ce9b76",
-          "56ac8aa1-1177-4f08-8516-c13e793adbf0",
-          "43f52ca1-46a8-4253-b017-9493e6e7e155"
-        ],
-        "settings": {
-          "keywords": ""
-        }
-      },
       "our-stores": {
         "type": "our-stores",
         "blocks": {
@@ -553,19 +459,113 @@
           "more-stores": "More Stores opening soon including, Cyprus, Qatar, Belgium and more!"
         }
       },
-      "email-subscription": {
-        "type": "email-subscription",
-        "settings": {
-          "heading": "Sign up below to stay up to date on our latest store openings and promotions",
-          "button-label": "Submit"
-        }
-      },
       "stores-banner": {
         "type": "stores-banner",
         "settings": {
           "heading": "MyCookiedough<sup>r<\/sup><br> Stores",
           "text": "<p>Experience moments of pure joy at<br\/>our My Cookie Dough Stores.<\/p>",
           "button-label": "View all locations"
+        }
+      },
+      "stores-image-slider": {
+        "type": "stores-image-slider",
+        "blocks": {
+          "6a5d5736-3e7f-4835-ba5c-74a81ea25455": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img1.jpg"
+            }
+          },
+          "b5e1a71c-ac3d-4bfd-8a4a-9ca24cabfc75": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img2.jpg"
+            }
+          },
+          "dd4322d3-87bc-43c0-8581-70b1bdbaa466": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img3.jpg"
+            }
+          },
+          "856d0b6f-8dc0-4d54-9241-141fae9e66a7": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img4.jpg"
+            }
+          },
+          "29cbbde8-f80c-4d14-9fe6-00fea0d9e42a": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img5.jpg"
+            }
+          },
+          "4882f2ab-3231-43ba-b563-8420471e754d": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img6.jpg"
+            }
+          },
+          "fe0cbd56-f51c-45b1-921e-9a812fe694ad": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img1.jpg"
+            }
+          },
+          "79f85891-abd6-4227-9ecc-295eeb914437": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img2.jpg"
+            }
+          },
+          "ed5ec093-6a2e-4c8d-963e-c5e29c7a5a37": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img3.jpg"
+            }
+          },
+          "15535d3d-b015-4e12-939b-d345b978fc63": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img4.jpg"
+            }
+          },
+          "95f0a2c2-b32e-491d-b75c-aa15f094d69c": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img5.jpg"
+            }
+          },
+          "2df410a9-6aa1-4b31-bbc2-c912267e78a4": {
+            "type": "image",
+            "settings": {
+              "slider-image": "shopify:\/\/shop_images\/slide-img6.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "6a5d5736-3e7f-4835-ba5c-74a81ea25455",
+          "b5e1a71c-ac3d-4bfd-8a4a-9ca24cabfc75",
+          "dd4322d3-87bc-43c0-8581-70b1bdbaa466",
+          "856d0b6f-8dc0-4d54-9241-141fae9e66a7",
+          "29cbbde8-f80c-4d14-9fe6-00fea0d9e42a",
+          "4882f2ab-3231-43ba-b563-8420471e754d",
+          "fe0cbd56-f51c-45b1-921e-9a812fe694ad",
+          "79f85891-abd6-4227-9ecc-295eeb914437",
+          "ed5ec093-6a2e-4c8d-963e-c5e29c7a5a37",
+          "15535d3d-b015-4e12-939b-d345b978fc63",
+          "95f0a2c2-b32e-491d-b75c-aa15f094d69c",
+          "2df410a9-6aa1-4b31-bbc2-c912267e78a4"
+        ],
+        "settings": {
+          "keywords": ""
+        }
+      },
+      "stores-email-subscription": {
+        "type": "stores-email-subscription",
+        "settings": {
+          "heading": "Sign up below to stay up to date on our latest store openings and promotions",
+          "button-label": "Submit"
         }
       }
     },
