@@ -658,26 +658,61 @@
           "abe2aec8-265a-4abe-86d5-6a0b40770b94": {
             "type": "keyword",
             "settings": {
-              "block-keyword": "Keyword goes here"
+              "block-keyword": "Come find us!"
             }
           },
           "608f09d5-b886-4daa-bf1c-eac9c67c1f2a": {
             "type": "keyword",
             "settings": {
-              "block-keyword": "Keyword goes here"
+              "block-keyword": "warm,"
             }
           },
           "14a82e5d-68f2-4ce3-be54-119df9bd69de": {
             "type": "keyword",
             "settings": {
-              "block-keyword": "Keyword goes here"
+              "block-keyword": "gooey,"
+            }
+          },
+          "bdcdf98e-d69d-4388-97f2-205bf2f97e19": {
+            "type": "keyword",
+            "settings": {
+              "block-keyword": "freshly backed"
+            }
+          },
+          "617de4dc-1868-468d-ad03-230cc2049eb9": {
+            "type": "keyword",
+            "settings": {
+              "block-keyword": "Come find us!"
+            }
+          },
+          "eba39360-c71a-456c-87ad-39d1886f0345": {
+            "type": "keyword",
+            "settings": {
+              "block-keyword": "warm,"
+            }
+          },
+          "521408c2-c23b-42db-9702-50f468ba7e9e": {
+            "type": "keyword",
+            "settings": {
+              "block-keyword": "gooey,"
+            }
+          },
+          "7bc1ba8a-6772-4439-8ba2-c85ce83e0a54": {
+            "type": "keyword",
+            "settings": {
+              "block-keyword": "freshly backed"
             }
           }
         },
         "block_order": [
           "abe2aec8-265a-4abe-86d5-6a0b40770b94",
           "608f09d5-b886-4daa-bf1c-eac9c67c1f2a",
-          "14a82e5d-68f2-4ce3-be54-119df9bd69de"
+          "14a82e5d-68f2-4ce3-be54-119df9bd69de",
+          "bdcdf98e-d69d-4388-97f2-205bf2f97e19",
+          "617de4dc-1868-468d-ad03-230cc2049eb9",
+          "eba39360-c71a-456c-87ad-39d1886f0345",
+          "521408c2-c23b-42db-9702-50f468ba7e9e",
+          "7bc1ba8a-6772-4439-8ba2-c85ce83e0a54"
         ],
         "settings": {
         }
