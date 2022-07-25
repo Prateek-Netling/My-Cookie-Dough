@@ -6,75 +6,75 @@
     ========================================================================== */
 @font-face {
   font-family: "Vodka Sans";
-  src: url("vodkasans-regular.eot");
-  src: url("vodkasans-regular.eot?#iefix") format("embedded-opentype"), url("vodkasans-regular.woff") format("woff"), url("vodkasans-regular.ttf") format("truetype"), url("vodkasans-regular.svg#Vodka Sans") format("svg");
+  src: url("../fonts/vodkasans-regular.eot");
+  src: url("../fonts/vodkasans-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/vodkasans-regular.woff") format("woff"), url("../fonts/vodkasans-regular.ttf") format("truetype"), url("../fonts/vodkasans-regular.svg#Vodka Sans") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Vodka Sans";
-    src: url("vodkasans-regular.svg#Vodka Sans") format("svg"); } }
+    src: url("../fonts/vodkasans-regular.svg#Vodka Sans") format("svg"); } }
 
 @font-face {
   font-family: "Buenos Aires";
-  src: url("buenosaires-light.eot");
-  src: url("buenosaires-light.eot?#iefix") format("embedded-opentype"), url("buenosaires-light.woff") format("woff"), url("buenosaires-light.ttf") format("truetype"), url("buenosaires-light.svg#Buenos Aires") format("svg");
+  src: url("../fonts/buenosaires-light.eot");
+  src: url("../fonts/buenosaires-light.eot?#iefix") format("embedded-opentype"), url("../fonts/buenosaires-light.woff") format("woff"), url("../fonts/buenosaires-light.ttf") format("truetype"), url("../fonts/buenosaires-light.svg#Buenos Aires") format("svg");
   font-weight: 300;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Buenos Aires";
-    src: url("buenosaires-light.svg#Buenos Aires") format("svg"); } }
+    src: url("../fonts/buenosaires-light.svg#Buenos Aires") format("svg"); } }
 
 @font-face {
   font-family: "Buenos Aires";
-  src: url("buenosaires-regular.eot");
-  src: url("buenosaires-regular.eot?#iefix") format("embedded-opentype"), url("buenosaires-regular.woff") format("woff"), url("buenosaires-regular.ttf") format("truetype"), url("buenosaires-regular.svg#Buenos Aires") format("svg");
+  src: url("../fonts/buenosaires-regular.eot");
+  src: url("../fonts/buenosaires-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/buenosaires-regular.woff") format("woff"), url("../fonts/buenosaires-regular.ttf") format("truetype"), url("../fonts/buenosaires-regular.svg#Buenos Aires") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Buenos Aires";
-    src: url("buenosaires-regular.svg#Buenos Aires") format("svg"); } }
+    src: url("../fonts/buenosaires-regular.svg#Buenos Aires") format("svg"); } }
 
 @font-face {
   font-family: "Buenos Aires";
-  src: url("buenosaires-bold.eot");
-  src: url("buenosaires-bold.eot?#iefix") format("embedded-opentype"), url("buenosaires-bold.woff") format("woff"), url("buenosaires-bold.ttf") format("truetype"), url("buenosaires-bold.svg#Buenos Aires") format("svg");
+  src: url("../fonts/buenosaires-bold.eot");
+  src: url("../fonts/buenosaires-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/buenosaires-bold.woff") format("woff"), url("../fonts/buenosaires-bold.ttf") format("truetype"), url("../fonts/buenosaires-bold.svg#Buenos Aires") format("svg");
   font-weight: 700;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Buenos Aires";
-    src: url("buenosaires-bold.svg#Buenos Aires") format("svg"); } }
+    src: url("../fonts/buenosaires-bold.svg#Buenos Aires") format("svg"); } }
 
 @font-face {
   font-family: "MohrRounded";
-  src: url("mohrrounded-regular.eot");
-  src: url("mohrrounded-regular.eot?#iefix") format("embedded-opentype"), url("mohrrounded-regular.woff") format("woff"), url("mohrrounded-regular.ttf") format("truetype"), url("mohrrounded-regular.svg#MohrRounded") format("svg");
+  src: url("../fonts/mohrrounded-regular.eot");
+  src: url("../fonts/mohrrounded-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/mohrrounded-regular.woff") format("woff"), url("../fonts/mohrrounded-regular.ttf") format("truetype"), url("../fonts/mohrrounded-regular.svg#MohrRounded") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "MohrRounded";
-    src: url("mohrrounded-regular.svg#MohrRounded") format("svg"); } }
+    src: url("../fonts/mohrrounded-regular.svg#MohrRounded") format("svg"); } }
 
 @font-face {
   font-family: "MohrRounded";
-  src: url("mohrrounded-black.eot");
-  src: url("mohrrounded-black.eot?#iefix") format("embedded-opentype"), url("mohrrounded-black.woff") format("woff"), url("mohrrounded-black.ttf") format("truetype"), url("mohrrounded-black.svg#MohrRounded") format("svg");
+  src: url("../fonts/mohrrounded-black.eot");
+  src: url("../fonts/mohrrounded-black.eot?#iefix") format("embedded-opentype"), url("../fonts/mohrrounded-black.woff") format("woff"), url("../fonts/mohrrounded-black.ttf") format("truetype"), url("../fonts/mohrrounded-black.svg#MohrRounded") format("svg");
   font-weight: 900;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "MohrRounded";
-    src: url("mohrrounded-black.svg#MohrRounded") format("svg"); } }
+    src: url("../fonts/mohrrounded-black.svg#MohrRounded") format("svg"); } }
 
 /*  ==========================================================================
 	Global Settings & Utilities
@@ -166,6 +166,9 @@ h4 {
     padding-left: 1px;
     padding-right: 1px; }
 
+.overflow-x-initial {
+  overflow-x: initial !important; }
+
 /*  ==========================================================================
 	Layouts
     ========================================================================== */
@@ -173,8 +176,7 @@ h4 {
 *container
 */
 #container {
-  min-width: 320px;
-  overflow-x: hidden; }
+  min-width: 320px; }
 
 html.skrollr-mobile {
   overflow: initial !important; }
@@ -244,7 +246,8 @@ html.skrollr-mobile {
 #page-head {
   padding: 96px 0 58px;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  overflow-x: hidden; }
   #page-head .container {
     position: relative;
     z-index: 10; }
@@ -285,6 +288,38 @@ html.skrollr-mobile {
     -webkit-animation-duration: 200s;
             animation-duration: 200s;
     background-size: 99px 60px; }
+  #page-head .cloud5 {
+    top: 300px;
+    -webkit-animation-delay: -130.69230769s;
+            animation-delay: -130.69230769s;
+    -webkit-animation-duration: 77s;
+            animation-duration: 77s;
+    background-size: 137px 84px; }
+  #page-head .cloud6 {
+    bottom: 100px;
+    height: 60px;
+    -webkit-animation-delay: -50.69230769s;
+            animation-delay: -50.69230769s;
+    -webkit-animation-duration: 88s;
+            animation-duration: 88s;
+    background-size: 99px 60px; }
+  #page-head .cloud7 {
+    top: 50%;
+    margin-top: -60px;
+    height: 113px;
+    -webkit-animation-delay: -50.46153846s;
+            animation-delay: -50.46153846s;
+    -webkit-animation-duration: 110s;
+            animation-duration: 110s;
+    background-size: 186px 113px; }
+  #page-head .cloud8 {
+    bottom: 22px;
+    height: 60px;
+    -webkit-animation-delay: -40.46153846s;
+            animation-delay: -40.46153846s;
+    -webkit-animation-duration: 160s;
+            animation-duration: 160s;
+    background-size: 99px 60px; }
   #page-head.page-head2 h1 {
     line-height: 1; }
   #page-head.page-head2 p {
@@ -318,12 +353,26 @@ html.skrollr-mobile {
   #page-head .cloud4 {
     bottom: 20px;
     height: 40px;
-    background-size: 70px 40px; } }
+    background-size: 70px 40px; }
+  #page-head .cloud5 {
+    height: 40px;
+    background-size: 70px 40px;
+    top: 50%; }
+  #page-head .cloud6 {
+    height: 30px;
+    background-size: 50px 30px; }
+  #page-head .cloud7 {
+    height: 25px;
+    background-size: 45px 25px; }
+  #page-head .cloud8 {
+    height: 40px;
+    background-size: 70px 40px;
+    top: 30%; } }
 
 .menu-btn {
   width: 84px;
   height: 137px;
-  background: url("menu-bg.png") no-repeat;
+  background: url("../images/menu-bg.png") no-repeat;
   background-size: 100% 100%;
   color: #fff;
   display: -webkit-inline-flex;
@@ -416,7 +465,7 @@ html.open-menu {
       opacity: 1;
       transition-delay: 1.1s;
       transition-duration: 1.1s; }
-    html.open-menu #main-navigation .images {
+    html.open-menu #main-navigation .menu-images {
       opacity: 1;
       transition-delay: 1s;
       transition-duration: 1s; }
@@ -477,11 +526,18 @@ html.open-menu {
           color: #672567; }
           #main-navigation .menu li a:hover:after {
             width: 100%; }
-  #main-navigation .images {
+  #main-navigation .menu-images {
     margin-left: -50px;
     opacity: 0;
     transition-delay: 0.3s;
     transition-duration: 0.3s; }
+    #main-navigation .menu-images .image {
+      -webkit-animation: fadeOut 2s;
+              animation: fadeOut 2s; }
+      #main-navigation .menu-images .image.active {
+        display: block;
+        -webkit-animation: fadeIn 2s;
+                animation: fadeIn 2s; }
 
 @media (max-width: 991px) {
   #main-navigation h2 {
@@ -492,7 +548,7 @@ html.open-menu {
 @media (max-width: 767px) {
   #main-navigation {
     padding-top: 90px; }
-    #main-navigation .images {
+    #main-navigation .menu-images {
       margin-left: 0; } }
 
 /*
@@ -719,10 +775,50 @@ a, .btn {
     -webkit-transform: translateX(-15%) translateZ(0);
             transform: translateX(-15%) translateZ(0); } }
 
+@-webkit-keyframes rolling {
+  from {
+    -webkit-clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%); }
+  to {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); } }
+
+@keyframes rolling {
+  from {
+    -webkit-clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%); }
+  to {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); } }
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
 .cloud {
   position: absolute;
   width: 100%;
-  background: url("cloud1.svg") no-repeat;
+  background: url("../images/cloud1.svg") no-repeat;
   background-size: auto 100%;
   -webkit-animation-duration: 120s;
   animation-duration: 120s;
@@ -867,7 +963,7 @@ a, .btn {
   min-height: 196px; }
 
 .form .calendar {
-  background-image: url("calendar-icon.svg");
+  background-image: url("../images/calendar-icon.svg");
   background-repeat: no-repeat;
   background-size: 22px 22px;
   background-position: center right 25px;
@@ -1050,7 +1146,7 @@ a, .btn {
       content: '';
       width: 26px;
       height: 16px;
-      background: url("cloud-list.svg") no-repeat;
+      background: url("../images/cloud-list.svg") no-repeat;
       position: absolute;
       top: 7px;
       left: 0; }
@@ -1071,7 +1167,7 @@ a, .btn {
     left: 0;
     height: 42px;
     width: 100%;
-    background: url("wave1.png") repeat-x center center;
+    background: url("../images/wave1.png") repeat-x center center;
     background-size: 748px 42px;
     -webkit-animation: wave 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite;
             animation: wave 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite; }
@@ -1082,16 +1178,63 @@ a, .btn {
     left: 0;
     height: 42px;
     width: 100%;
-    background: url("wave2.png") repeat-x center center;
+    background: url("../images/wave2.png") repeat-x center center;
     background-size: 787px 35px;
     -webkit-animation: wave-reverse 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite;
             animation: wave-reverse 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite; }
 
 /*
+@media (max-width: 767px) {
+    .wave1 {
+        &:before {
+            background-size: 400px 22px;
+            top: -11px;
+            height: 22px;
+        }
+        &:after {
+            background-size: 400px 22px;
+            bottom: -17px;
+            height: 22px;
+        }
+    }
+}
+*/
+.gallery1 {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative; }
+  .gallery1 .animation {
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+    font-family: "object-fit:cover";
+    object-fit: cover;
+    position: absolute; }
+  .gallery1 .completed {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); }
+  .gallery1 .first {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); }
+  .gallery1 .active {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 2;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -ms-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    transition-duration: 2s; }
+
+/*
 *section
 */
 .section {
-  padding: 50px 0; }
+  padding: 50px 0;
+  overflow-x: clip; }
   .section.relative .container {
     position: relative;
     z-index: 10; }
@@ -1131,6 +1274,14 @@ a, .btn {
   margin-bottom: 30px; }
 
 /*
+*stick 
+*/
+.stick-side {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px; }
+
+/*
 *sign up
 */
 .sign-up-section {
@@ -1140,7 +1291,7 @@ a, .btn {
     position: absolute;
     width: 100%;
     height: 47.78px;
-    background: url("sign-up-before.png");
+    background: url("../images/sign-up-before.png");
     background-repeat: repeat-x;
     background-size: 1460px 47.78px;
     top: -17px;
@@ -1159,35 +1310,19 @@ a, .btn {
     overflow: hidden; }
   .find-us h2 {
     white-space: nowrap; }
-  .find-us .cloud {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    margin-top: -34px;
-    height: 45px;
-    background: url("cloud2.svg") no-repeat;
-    background-size: 73px 45px;
-    pointer-events: none;
-    -webkit-animation-duration: 120s;
-    animation-duration: 120s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-name: Float, FadeFloat;
-    animation-name: Float, FadeFloat; }
-  .find-us .cloud1 {
-    -webkit-animation-delay: -140.69230769s;
-            animation-delay: -140.69230769s;
-    -webkit-animation-duration: 88s;
-            animation-duration: 88s; }
-  .find-us .cloud2 {
-    -webkit-animation-delay: -120.69230769s;
-            animation-delay: -120.69230769s;
-    -webkit-animation-duration: 88s;
-            animation-duration: 88s; }
+    .find-us h2 .cloud1 {
+      display: inline-block;
+      width: 73px;
+      height: 45px;
+      background: url("../images/cloud2.svg") no-repeat;
+      background-size: contain; }
+
+@media (max-width: 767px) {
+  .find-us {
+    padding: 25px 0; }
+    .find-us h2 .cloud1 {
+      width: 30px;
+      height: 19px; } }
 
 /*
 *our story
@@ -1208,12 +1343,6 @@ a, .btn {
     padding: 50px 0; } }
 
 /*
-.owl-carousel .owl-stage {
-  transform: none !important;
-  transition-timing-function: linear !important;
-}
-*/
-/*
 *we offer
 */
 .we-offer {
@@ -1224,16 +1353,13 @@ a, .btn {
     position: absolute;
     width: 100%;
     height: 47.78px;
-    background: url("we-offer-before.png");
+    background: url("../images/we-offer-before.png");
     background-repeat: repeat-x;
     background-size: 752px 64px;
     top: -23px;
     left: 0;
     -webkit-animation: wave 200s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite;
             animation: wave 200s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite; }
-  .we-offer .image {
-    border-radius: 10px;
-    overflow: hidden; }
   .we-offer h2 {
     font-family: "Vodka Sans", sans-serif, Arial;
     color: #F7E8F3;
