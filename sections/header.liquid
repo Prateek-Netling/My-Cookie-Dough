@@ -83,6 +83,7 @@
                   {% assign i=1 %}
                   {% for link in section.settings.menu.links %}
                     <li><a href="{{ link.url }}" data-tag="image{{ i }}">{{ link.title }}</a></li>
+                    {% assign i = i | plus: 1 %}
                   {% endfor %}
                 </ul>
               </div>
