@@ -6,75 +6,75 @@
     ========================================================================== */
 @font-face {
   font-family: "Vodka Sans";
-  src: url("../fonts/vodkasans-regular.eot");
-  src: url("../fonts/vodkasans-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/vodkasans-regular.woff") format("woff"), url("../fonts/vodkasans-regular.ttf") format("truetype"), url("../fonts/vodkasans-regular.svg#Vodka Sans") format("svg");
+  src: url("vodkasans-regular.eot");
+  src: url("vodkasans-regular.eot?#iefix") format("embedded-opentype"), url("vodkasans-regular.woff") format("woff"), url("vodkasans-regular.ttf") format("truetype"), url("vodkasans-regular.svg#Vodka Sans") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Vodka Sans";
-    src: url("../fonts/vodkasans-regular.svg#Vodka Sans") format("svg"); } }
+    src: url("vodkasans-regular.svg#Vodka Sans") format("svg"); } }
 
 @font-face {
   font-family: "Buenos Aires";
-  src: url("../fonts/buenosaires-light.eot");
-  src: url("../fonts/buenosaires-light.eot?#iefix") format("embedded-opentype"), url("../fonts/buenosaires-light.woff") format("woff"), url("../fonts/buenosaires-light.ttf") format("truetype"), url("../fonts/buenosaires-light.svg#Buenos Aires") format("svg");
+  src: url("buenosaires-light.eot");
+  src: url("buenosaires-light.eot?#iefix") format("embedded-opentype"), url("buenosaires-light.woff") format("woff"), url("buenosaires-light.ttf") format("truetype"), url("buenosaires-light.svg#Buenos Aires") format("svg");
   font-weight: 300;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Buenos Aires";
-    src: url("../fonts/buenosaires-light.svg#Buenos Aires") format("svg"); } }
+    src: url("buenosaires-light.svg#Buenos Aires") format("svg"); } }
 
 @font-face {
   font-family: "Buenos Aires";
-  src: url("../fonts/buenosaires-regular.eot");
-  src: url("../fonts/buenosaires-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/buenosaires-regular.woff") format("woff"), url("../fonts/buenosaires-regular.ttf") format("truetype"), url("../fonts/buenosaires-regular.svg#Buenos Aires") format("svg");
+  src: url("buenosaires-regular.eot");
+  src: url("buenosaires-regular.eot?#iefix") format("embedded-opentype"), url("buenosaires-regular.woff") format("woff"), url("buenosaires-regular.ttf") format("truetype"), url("buenosaires-regular.svg#Buenos Aires") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Buenos Aires";
-    src: url("../fonts/buenosaires-regular.svg#Buenos Aires") format("svg"); } }
+    src: url("buenosaires-regular.svg#Buenos Aires") format("svg"); } }
 
 @font-face {
   font-family: "Buenos Aires";
-  src: url("../fonts/buenosaires-bold.eot");
-  src: url("../fonts/buenosaires-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/buenosaires-bold.woff") format("woff"), url("../fonts/buenosaires-bold.ttf") format("truetype"), url("../fonts/buenosaires-bold.svg#Buenos Aires") format("svg");
+  src: url("buenosaires-bold.eot");
+  src: url("buenosaires-bold.eot?#iefix") format("embedded-opentype"), url("buenosaires-bold.woff") format("woff"), url("buenosaires-bold.ttf") format("truetype"), url("buenosaires-bold.svg#Buenos Aires") format("svg");
   font-weight: 700;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Buenos Aires";
-    src: url("../fonts/buenosaires-bold.svg#Buenos Aires") format("svg"); } }
+    src: url("buenosaires-bold.svg#Buenos Aires") format("svg"); } }
 
 @font-face {
   font-family: "MohrRounded";
-  src: url("../fonts/mohrrounded-regular.eot");
-  src: url("../fonts/mohrrounded-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/mohrrounded-regular.woff") format("woff"), url("../fonts/mohrrounded-regular.ttf") format("truetype"), url("../fonts/mohrrounded-regular.svg#MohrRounded") format("svg");
+  src: url("mohrrounded-regular.eot");
+  src: url("mohrrounded-regular.eot?#iefix") format("embedded-opentype"), url("mohrrounded-regular.woff") format("woff"), url("mohrrounded-regular.ttf") format("truetype"), url("mohrrounded-regular.svg#MohrRounded") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "MohrRounded";
-    src: url("../fonts/mohrrounded-regular.svg#MohrRounded") format("svg"); } }
+    src: url("mohrrounded-regular.svg#MohrRounded") format("svg"); } }
 
 @font-face {
   font-family: "MohrRounded";
-  src: url("../fonts/mohrrounded-black.eot");
-  src: url("../fonts/mohrrounded-black.eot?#iefix") format("embedded-opentype"), url("../fonts/mohrrounded-black.woff") format("woff"), url("../fonts/mohrrounded-black.ttf") format("truetype"), url("../fonts/mohrrounded-black.svg#MohrRounded") format("svg");
+  src: url("mohrrounded-black.eot");
+  src: url("mohrrounded-black.eot?#iefix") format("embedded-opentype"), url("mohrrounded-black.woff") format("woff"), url("mohrrounded-black.ttf") format("truetype"), url("mohrrounded-black.svg#MohrRounded") format("svg");
   font-weight: 900;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "MohrRounded";
-    src: url("../fonts/mohrrounded-black.svg#MohrRounded") format("svg"); } }
+    src: url("mohrrounded-black.svg#MohrRounded") format("svg"); } }
 
 /*  ==========================================================================
 	Global Settings & Utilities
@@ -372,7 +372,7 @@ html.skrollr-mobile {
 .menu-btn {
   width: 84px;
   height: 137px;
-  background: url("../images/menu-bg.png") no-repeat;
+  background: url("menu-bg.png") no-repeat;
   background-size: 100% 100%;
   color: #fff;
   display: -webkit-inline-flex;
@@ -818,7 +818,7 @@ a, .btn {
 .cloud {
   position: absolute;
   width: 100%;
-  background: url("../images/cloud1.svg") no-repeat;
+  background: url("cloud1.svg") no-repeat;
   background-size: auto 100%;
   -webkit-animation-duration: 120s;
   animation-duration: 120s;
@@ -963,7 +963,7 @@ a, .btn {
   min-height: 196px; }
 
 .form .calendar {
-  background-image: url("../images/calendar-icon.svg");
+  background-image: url("calendar-icon.svg");
   background-repeat: no-repeat;
   background-size: 22px 22px;
   background-position: center right 25px;
@@ -1146,7 +1146,7 @@ a, .btn {
       content: '';
       width: 26px;
       height: 16px;
-      background: url("../images/cloud-list.svg") no-repeat;
+      background: url("cloud-list.svg") no-repeat;
       position: absolute;
       top: 7px;
       left: 0; }
@@ -1167,7 +1167,7 @@ a, .btn {
     left: 0;
     height: 42px;
     width: 100%;
-    background: url("../images/wave1.png") repeat-x center center;
+    background: url("wave1.png") repeat-x center center;
     background-size: 748px 42px;
     -webkit-animation: wave 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite;
             animation: wave 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite; }
@@ -1178,7 +1178,7 @@ a, .btn {
     left: 0;
     height: 42px;
     width: 100%;
-    background: url("../images/wave2.png") repeat-x center center;
+    background: url("wave2.png") repeat-x center center;
     background-size: 787px 35px;
     -webkit-animation: wave-reverse 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite;
             animation: wave-reverse 400s cubic-bezier(0.36, 0.36, 0.36, 0.36) infinite; }
@@ -1291,7 +1291,7 @@ a, .btn {
     position: absolute;
     width: 100%;
     height: 47.78px;
-    background: url("../images/sign-up-before.png");
+    background: url("sign-up-before.png");
     background-repeat: repeat-x;
     background-size: 1460px 47.78px;
     top: -17px;
@@ -1314,7 +1314,7 @@ a, .btn {
       display: inline-block;
       width: 73px;
       height: 45px;
-      background: url("../images/cloud2.svg") no-repeat;
+      background: url("cloud2.svg") no-repeat;
       background-size: contain; }
 
 @media (max-width: 767px) {
@@ -1353,7 +1353,7 @@ a, .btn {
     position: absolute;
     width: 100%;
     height: 47.78px;
-    background: url("../images/we-offer-before.png");
+    background: url("we-offer-before.png");
     background-repeat: repeat-x;
     background-size: 752px 64px;
     top: -23px;
