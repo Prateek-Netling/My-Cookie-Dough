@@ -643,7 +643,6 @@
           "2df410a9-6aa1-4b31-bbc2-c912267e78a4"
         ],
         "settings": {
-          "keywords": ""
         }
       },
       "stores-email-subscription": {
@@ -651,6 +650,36 @@
         "settings": {
           "heading": "Sign up below to stay up to date on our latest store openings and promotions",
           "button-label": "Submit"
+        }
+      },
+      "stores-keywords": {
+        "type": "stores-keywords",
+        "blocks": {
+          "abe2aec8-265a-4abe-86d5-6a0b40770b94": {
+            "type": "keyword",
+            "settings": {
+              "block-keyword": "Keyword goes here"
+            }
+          },
+          "608f09d5-b886-4daa-bf1c-eac9c67c1f2a": {
+            "type": "keyword",
+            "settings": {
+              "block-keyword": "Keyword goes here"
+            }
+          },
+          "14a82e5d-68f2-4ce3-be54-119df9bd69de": {
+            "type": "keyword",
+            "settings": {
+              "block-keyword": "Keyword goes here"
+            }
+          }
+        },
+        "block_order": [
+          "abe2aec8-265a-4abe-86d5-6a0b40770b94",
+          "608f09d5-b886-4daa-bf1c-eac9c67c1f2a",
+          "14a82e5d-68f2-4ce3-be54-119df9bd69de"
+        ],
+        "settings": {
         }
       }
     },
