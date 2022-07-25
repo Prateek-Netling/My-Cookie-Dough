@@ -1,8 +1,9 @@
                 <div class="gallery1">
+                  {% assign i = 1 %}
                   {% for block in section.blocks %}
                     {% case block.type %}
                       {% when 'image' %}
-                        <img class="animation" src="{{ block.settings.offer-image | image_url }}" alt="{{ block.settings.offer-image.alt }}">
+                        <img class="animation {% if i==1 %} active {% endif %} " src="{{ block.settings.offer-image | image_url }}" alt="{{ block.settings.offer-image.alt }}">
                     {% endcase %}
                   {% endfor %}
                 </div>
