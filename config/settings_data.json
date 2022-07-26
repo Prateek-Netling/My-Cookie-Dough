@@ -50,7 +50,7 @@
           "fd8dd4e9-5407-4c48-9d31-c055307a357e"
         ],
         "settings": {
-          "menu-heading": "<small>SHOP<\/small> MY COOKIE DOUGH <br> My COOKIES",
+          "menu-heading": "<small>SHOP<\/small> MY COOKIE DOUGH <br> My COOKIE",
           "menu-image": "shopify:\/\/shop_images\/image2_e1ce76bc-7520-4544-9910-9568eb68dd72.jpg",
           "menu": "main-menu"
         }
@@ -288,7 +288,6 @@
       "enquiry-form": {
         "type": "enquiry-form",
         "settings": {
-          "title": "Enquiry form",
           "text": "<p>Get in touch today! We will do our very best to meet your bespoke corporate gifting needs! <\/p>",
           "button-label": "Send Enquiry"
         }
@@ -715,6 +714,12 @@
           "7bc1ba8a-6772-4439-8ba2-c85ce83e0a54"
         ],
         "settings": {
+        }
+      },
+      "demo-product": {
+        "type": "demo-product",
+        "settings": {
+          "title": ""
         }
       }
     },
