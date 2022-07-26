@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "demo-product",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
