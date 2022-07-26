@@ -1,1 +1,3 @@
-{{ product.metafields }}
+{% for metafield in product.metafields %}
+  {{ metafield }}
+{% endfor %}
