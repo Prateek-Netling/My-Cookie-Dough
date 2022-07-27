@@ -716,10 +716,10 @@
         "settings": {
         }
       },
-      "demo-product": {
-        "type": "demo-product",
+      "main-product": {
+        "type": "main-product",
         "settings": {
-          "title": ""
+          "name": "Demo"
         }
       }
     },
