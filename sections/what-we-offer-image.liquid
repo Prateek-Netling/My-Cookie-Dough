@@ -6,6 +6,7 @@
 <!--     <img class="animation {% if i==1 %} active {% assign i = 0 %} {% endif %}" src="{{ block.settings.offer-image | image_url }}" alt="{{ block.settings.offer-image.alt }}"> -->
       {% if i==1 %}
         <img class="animation active" src="{{ block.settings.offer-image | image_url }}" alt="{{ block.settings.offer-image.alt }}">
+        {% assign i = 0 %}
       {% else %}
         <img class="animation" src="{{ block.settings.offer-image | image_url }}" alt="{{ block.settings.offer-image.alt }}">
       {% endif %}
