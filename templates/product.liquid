@@ -1,1 +1,3 @@
-{{ product.metafields.custom.demo.list? }}
+{% for item in product.metafields.custom.demo %}
+  {{ item }}
+{% endfor %}
