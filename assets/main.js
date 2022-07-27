@@ -93,9 +93,9 @@ $('#main-navigation .menu li > a').mouseenter(function() {
 });
 var s = skrollr.init();
 
-$(window).resize(function() {
-  $('.gallery1').height($('.gallery1 img').outerHeight());
-});
+// $(window).resize(function() {
+//   $('.gallery1').height($('.gallery1 img').outerHeight());
+// });
 
 $(window).load(function() {
   objectFitImages();
