@@ -1,6 +1,6 @@
-{% comment %} {% for variant in product.variants %} {% endfor %} {% endcomment %}
-{{ variant }}
-
+{% for variant in product.variants %}
+  {{ variant }}
+{% endfor %}
 {% schema %}
   {
     "name": "Product",
