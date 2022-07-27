@@ -1,4 +1,6 @@
-{{ all_products }}
+{% for product in all_products %}
+  {{ product }}
+{% endfor %}
 
 {% schema %}
   {
