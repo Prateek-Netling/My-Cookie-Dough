@@ -1,10 +1,15 @@
-{% for variant in product.variants %}
-  {{ variant.title }}
-{% endfor %}
+{{ section.settings.name }}
+
 {% schema %}
   {
     "name": "Product",
-    "settings": []
+    "settings": [
+      {
+        "id": "name",
+        "type": "text",
+        "label": "Name"
+      }
+    ]
   }
 {% endschema %}
 
