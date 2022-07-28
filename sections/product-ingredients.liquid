@@ -41,7 +41,7 @@
               {% assign ingredient = scope.ingredient %}
               {% if ingredient and ingredient != blank %}
                   {% for row in ingredient.rows %}
-                      
+                      {{ row.image }}
                   {% endfor %}
               {% endif %}
 
