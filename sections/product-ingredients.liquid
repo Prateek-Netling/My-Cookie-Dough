@@ -35,20 +35,8 @@
               <h3>{{ section.settings.heading }}</h3>
             </header>
             <div class="row">
-              {% assign scope = product.metafields.airf %}
-              {% assign ingredient = scope.ingredient %}
-              {% if ingredient and ingredient != blank %}
-                  {% for row in ingredient.rows %}
-                      {% for row_field in row %}
-                          <div class="col-md-4 column">
-                            <div class="image">
-                              <img src="{{ scope[row_field.key] }}" alt="icon">
-                            </div>
-                            <p>{{ scope[row_field.key] }}</p>
-                          </div>
-                      {% endfor %}
-                  {% endfor %}
-              {% endif %}
+
+              
               
             </div>
           </div>
