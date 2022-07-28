@@ -43,9 +43,7 @@
             {% if ingredient and ingredient != blank %}
                 {% for row in ingredient.rows %}
                     {% for row_field in row %}
-                        Row Field Key: {{row_field.key}} <br>
-                        Row Field Label: {{row_field.label}} <br>
-                        Scope Row Field Key: {{ scope[row_field.key] }} <br>
+                        {{ scope[row_field.key] }}
                     {% endfor %}
                 {% endfor %}
             {% endif %}
