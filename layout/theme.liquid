@@ -29,7 +29,9 @@
     <!-- container -->
     <div id="container">
        {% section 'header' %}
-       {{ content_for_layout }}
+       <div id="content">
+         {{ content_for_layout }}
+       </div>
        {% section 'footer' %}
     </div>
   
