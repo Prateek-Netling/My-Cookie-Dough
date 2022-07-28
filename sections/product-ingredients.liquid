@@ -29,6 +29,28 @@
 <!-- /section --> {% endcomment %}
 
 
+
+{% assign scope = product.metafields.airf %}
+{% assign ingredient = scope.ingredient %}
+{% if ingredient and ingredient != blank %}
+    {% for row in ingredient.rows %}
+        Row Data 
+        {% for row_field in row %}
+            {% comment %} Show ech field in row {% endcomment %}
+            <div id="{{row_field.key}}">
+                <span>{{row_field.label}}: {{ scope[row_field.key] }}</span>
+            </div>
+
+            {% comment %} Conditional show items, for example you can decide which html tag to use {% endcomment %}
+            {% if row_field.key contains "XXX" %}
+                <h2 id="{{row_field.key}}">{{ scope[row_field.key] }}</h2>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endif %}
+
+
+
 {% schema %}
   {
     "name": "Ingredients",
