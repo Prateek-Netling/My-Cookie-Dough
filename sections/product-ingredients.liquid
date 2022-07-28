@@ -42,16 +42,12 @@
             {% assign ingredient = scope.ingredient %}
             {% if ingredient and ingredient != blank %}
                 {% for row in ingredient.rows %}
-<!--                   <div class="col-md-4 column">
+                  <div class="col-md-4 column">
                     <div class="image">
                       <img src="{{ 'image9.png' | asset_url }}" alt="icon">
                     </div>
                     <p>Kinder</p>
-                  </div> -->
-                
-                    
-                        {{ scope['image_1'] }}
-                    
+                  </div>
                 {% endfor %}
             {% endif %}
 
