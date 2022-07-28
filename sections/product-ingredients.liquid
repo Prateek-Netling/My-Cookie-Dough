@@ -41,10 +41,11 @@
             {% assign scope = product.metafields.airf %}
             {% assign ingredient = scope.ingredient %}
             {% if ingredient and ingredient != blank %}
+              {{ scope[image.key] }}
                 {% for row in ingredient.rows %}
-                    {% for row_field in row %}
+<!--                     {% for row_field in row %}
                         {{ scope[row_field.key] }}
-                    {% endfor %}
+                    {% endfor %} -->
                 {% endfor %}
             {% endif %}
 
