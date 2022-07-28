@@ -42,9 +42,12 @@
               {% if ingredient and ingredient != blank %}
                   {% for row in ingredient.rows %}
                       {% for row_field in row %}
-<!--                           <div id="{{row_field.key}}"> -->
-                              <span>{{ scope[row_field.key] }}</span> <br>
-<!--                           </div> -->
+                        <div class="col-md-4 column">
+                          <div class="image">
+                            <img src="{{ scope[row_field.key] }}" alt="icon">
+                          </div>
+                          <p>{{ scope[row_field.key] }}</p>
+                        </div>
                       {% endfor %}
                   {% endfor %}
               {% endif %}
