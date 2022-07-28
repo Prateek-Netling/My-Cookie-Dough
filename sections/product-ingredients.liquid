@@ -42,10 +42,9 @@
               {% if ingredient and ingredient != blank %}
                   {% for row in ingredient.rows %}
                       {% for row_field in row %}
-                          {% comment %} Show ech field in row {% endcomment %}
-                          <div id="{{row_field.key}}">
+<!--                           <div id="{{row_field.key}}"> -->
                               <span>{{row_field.label}}: {{ scope[row_field.key] }}</span>
-                          </div>
+<!--                           </div> -->
                       {% endfor %}
                   {% endfor %}
               {% endif %}
