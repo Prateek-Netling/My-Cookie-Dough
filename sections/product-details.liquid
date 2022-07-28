@@ -1,35 +1,33 @@
-
-        <!--  section -->
-        <div class="section single-product-section">
+<div class="section single-product-section">
           <div class="container">
             <div class="row">
               <div class="col-lg-5 col-md-12 order-lg-2 column mb-lg-0">
                 <div class="product-image-slider">
                   <div class="slideshow2 slick-slider">
                     <div>
-                      <img src="images/sweet-chocolate-cookies.png" alt="img">
+                      <img src="{{ product.featured_image | image_url }}" alt="img">
                     </div>
                     <div>
-                      <img src="images/sweet-chocolate-cookies.png" alt="img">
+                      <img src="{{ product.featured_image | image_url }}" alt="img">
                     </div>
                     <div>
-                      <img src="images/sweet-chocolate-cookies.png" alt="img">
+                      <img src="{{ product.featured_image | image_url }}" alt="img">
                     </div>
                   </div>
                   <div class="slideshow2-nav slick-slider">
                     <div class="slick-slide">
                       <span class="thumb-img">
-                        <img src="images/thumb1.jpg" alt="img">
+                        <img src="{{ 'thumb1.jpg' | asset_url }}" alt="img">
                       </span>
                     </div>
                     <div class="slick-slide">
                       <span class="thumb-img">
-                        <img src="images/thumb2.jpg" alt="img">
+                        <img src="{{ 'thumb2.jpg' | asset_url }}" alt="img">
                       </span>
                     </div>
                     <div class="slick-slide">
                       <span class="thumb-img">
-                        <img src="images/thumb3.jpg" alt="img">
+                        <img src="{{ 'thumb3.jpg' | asset_url }}" alt="img">
                       </span>
                     </div>
                   </div>
@@ -38,10 +36,10 @@
               <div class="col-lg-7 col-md-12">
                 <div class="side-content">
                   <div class="logo">
-                    <img src="images/my-cookies.svg" alt="my-cookies">
+                    <img src="{{ 'my-cookies.svg' | asset_url }}" alt="my-cookies">
                   </div>
-                  <h1>Milk Choclate Chip</h1>
-                  <p>Original Milk Chocolate Chip cookie with Melted Kinder stacked with White Chocolate Cookie.</p>
+                  <h1>{{ product.title }}</h1>
+                  <p>{{ product.description }}</p>
                   <div class="flavours">
                     <h4>ALL flavours</h4>
                     <ul class="flavours-list">
@@ -68,7 +66,7 @@
                   <div class="product-price">
                     <ul>
                       <li>
-                        <span class="price">From £24.99</span>
+                        <span class="price">From {{ product.price | money }}</span>
                       </li>
                       <li>
                         <a href="#" class="btn btn-primary-light">Build your box</a>
@@ -96,186 +94,7 @@
           <span class="cloud cloud8">
           </span>
         </div>
-        <!--  /section -->
-        <!-- section -->
-        <div class="section ingredients text-center">
-          <div class="container">
-            <header>
-              <h3>Ingredients</h3>
-            </header>
-            <div class="row">
-              <div class="col-md-4 column">
-                <div class="image">
-                  <img src="images/image8.png" alt="icon">
-                </div>
-                <p>Chocolate chip</p>
-              </div>
-              <div class="col-md-4 column">
-                <div class="image">
-                  <img src="images/image9.png" alt="icon">
-                </div>
-                <p>Kinder</p>
-              </div>
-              <div class="col-md-4 column">
-                <div class="image">
-                  <img src="images/image10.png" alt="icon">
-                </div>
-                <p>Caramel candy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /section -->
-        <!--  section -->
-        <div class="section nutritional-info">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <header>
-                  <h3>Nutritional information</h3>
-                </header>
-                <div class="custom-accordion">
-                  <div class="custom-card active">
-                    <div class="custom-accordion-header"> View Nutrition Summary </div>
-                    <div class="custom-accordion-content">
-                      <div class="inner-content">
-                        <ul class="list3">
-                          <li>
-                            <span class="data">Happiness (%)</span>
-                            <span class="value">100</span>
-                          </li>
-                          <li>
-                            <span class="data">Energy(kJ per portion)</span>
-                            <span class="value">2786.2</span>
-                          </li>
-                          <li>
-                            <span class="data">Energy (kcal per portion)</span>
-                            <span class="value">665.3</span>
-                          </li>
-                          <li>
-                            <span class="data">Fat (total)</span>
-                            <span class="value">32.15</span>
-                          </li>
-                          <li>
-                            <span class="data">Fat (Saturated)</span>
-                            <span class="value">19.32</span>
-                          </li>
-                          <li>
-                            <span class="data">Carbohydrate (total)</span>
-                            <span class="value">85.53</span>
-                          </li>
-                          <li>
-                            <span class="data">Carbohydrate (sugars)</span>
-                            <span class="value">46.6</span>
-                          </li>
-                          <li>
-                            <span class="data">Protein (total)</span>
-                            <span class="value">7.88</span>
-                          </li>
-                          <li>
-                            <span class="data">Salt (total)</span>
-                            <span class="value">0.733</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="custom-card">
-                    <div class="custom-accordion-header"> View Allergen Info </div>
-                    <div class="custom-accordion-content">
-                      <div class="inner-content">
-                        <ul class="list3">
-                          <li>
-                            <span class="data">Happiness (%)</span>
-                            <span class="value">100</span>
-                          </li>
-                          <li>
-                            <span class="data">Energy(kJ per portion)</span>
-                            <span class="value">2786.2</span>
-                          </li>
-                          <li>
-                            <span class="data">Energy (kcal per portion)</span>
-                            <span class="value">665.3</span>
-                          </li>
-                          <li>
-                            <span class="data">Fat (total)</span>
-                            <span class="value">32.15</span>
-                          </li>
-                          <li>
-                            <span class="data">Fat (Saturated)</span>
-                            <span class="value">19.32</span>
-                          </li>
-                          <li>
-                            <span class="data">Carbohydrate (total)</span>
-                            <span class="value">85.53</span>
-                          </li>
-                          <li>
-                            <span class="data">Carbohydrate (sugars)</span>
-                            <span class="value">46.6</span>
-                          </li>
-                          <li>
-                            <span class="data">Protein (total)</span>
-                            <span class="value">7.88</span>
-                          </li>
-                          <li>
-                            <span class="data">Salt (total)</span>
-                            <span class="value">0.733</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="custom-card">
-                    <div class="custom-accordion-header"> View Storage Details </div>
-                    <div class="custom-accordion-content">
-                      <div class="inner-content">
-                        <ul class="list3">
-                          <li>
-                            <span class="data">Happiness (%)</span>
-                            <span class="value">100</span>
-                          </li>
-                          <li>
-                            <span class="data">Energy(kJ per portion)</span>
-                            <span class="value">2786.2</span>
-                          </li>
-                          <li>
-                            <span class="data">Energy (kcal per portion)</span>
-                            <span class="value">665.3</span>
-                          </li>
-                          <li>
-                            <span class="data">Fat (total)</span>
-                            <span class="value">32.15</span>
-                          </li>
-                          <li>
-                            <span class="data">Fat (Saturated)</span>
-                            <span class="value">19.32</span>
-                          </li>
-                          <li>
-                            <span class="data">Carbohydrate (total)</span>
-                            <span class="value">85.53</span>
-                          </li>
-                          <li>
-                            <span class="data">Carbohydrate (sugars)</span>
-                            <span class="value">46.6</span>
-                          </li>
-                          <li>
-                            <span class="data">Protein (total)</span>
-                            <span class="value">7.88</span>
-                          </li>
-                          <li>
-                            <span class="data">Salt (total)</span>
-                            <span class="value">0.733</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /section -->
+<!--  /section -->
 
 
 {% schema %}
