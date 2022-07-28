@@ -2,7 +2,7 @@
         <div class="section ingredients text-center">
           <div class="container">
             <header>
-              <h3>Ingredients</h3>
+              <h3>{{ section.settings.heading }}</h3>
             </header>
             <div class="row">
               <div class="col-md-4 column">
@@ -32,6 +32,12 @@
 {% schema %}
   {
     "name": "Ingredients",
-    "settings": []
+    "settings": [
+      {
+        "id": "heading",
+        "type": "text",
+        "label": "Heading"
+      }
+    ]
   }
 {% endschema %}
