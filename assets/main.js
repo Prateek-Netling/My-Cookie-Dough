@@ -1,3 +1,4 @@
+hello
 $(document).ready(function() {
 
   
@@ -5,12 +6,6 @@ $(document).ready(function() {
     $('body').toggleClass("open-menu");
     $('html').toggleClass("open-menu");
     return false;
-  });
-
-  $('#main-navigation .menu li > a').mouseenter(function() {
-    var tagid = $(this).data('tag');
-    $('#main-navigation .menu-images .image').removeClass('active').addClass('d-none');
-    $('#' + tagid).addClass('active').removeClass('d-none');
   });
 
   $(".timings-chart .toggle-btn").click(function(){
@@ -22,12 +17,11 @@ $(document).ready(function() {
    $('.carousel1').owlCarousel({
     loop:true,
     autoplay:true,
-    autoplaySpeed: 2000,
+    autoplayTimeout:3500,
     autoplayHoverPause:true,
     margin:16,
     nav: false,
     dots: false,
-    slideTransition: 'linear',
     responsive:{
       0: {
         items:2
@@ -64,46 +58,6 @@ $('.carousel2').owlCarousel({
     }
   }
 });
-
-$('.slideshow2').each(function(){
-  var $this = $(this);
-  $this.slick({
-    slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: $this.next(),
-      focusOnSelect: true,
-      dots: false,
-      // loop: true
-  });  
-});
-
-$('.slideshow2-nav').each(function(){
-  var $this = $(this);
-  $this.slick({
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      asNavFor: $this.prev(),
-      arrows: true,
-      focusOnSelect: true,
-      dots: false,
-      vertical: true,
-      verticalSwiping:true, 
-      responsive: [
-      {
-        breakpoint: 991,
-          settings: {
-            vertical: false,
-            verticalSwiping:false,
-            variableWidth: true,
-           
-        }
-    }
-    ]
-  });
-});
-
 $('.gallery1').height($('.gallery1 img').outerHeight());
 
 var navs = $(".gallery1 > img");
@@ -124,12 +78,11 @@ setInterval(function(){
 
 }, 3000);
 
-$('.custom-accordion .custom-card.active').find('.custom-accordion-content').slideDown(200)
-$('.custom-accordion .custom-accordion-header').click(function () {
-  $(this).parent(".custom-card").toggleClass('active').siblings(".custom-card").removeClass("active");
-  $(this).next('.custom-accordion-content').slideToggle(200);
-  $(this).parent(".custom-card").siblings(".custom-card").find(".custom-accordion-content").slideUp();
-  return false;
+
+$('#main-navigation .menu li > a').mouseenter(function() {
+  var tagid = $(this).data('tag');
+  $('#main-navigation .menu-images .image').removeClass('active').addClass('d-none');
+  $('#' + tagid).addClass('active').removeClass('d-none');
 });
 
   if (/Edge\/\d./i.test(navigator.userAgent)){
