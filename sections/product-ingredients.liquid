@@ -42,13 +42,15 @@
             {% assign ingredient = scope.ingredient %}
             {% if ingredient and ingredient != blank %}
                 {% for row in ingredient.rows %}
+                  {% for row_field in row %}
+                    {{ scope[row_field.key] }}
+                  {% endfor %}
                   <div class="col-md-4 column">
                     <div class="image">
                       <img src="{{ 'image9.png' | asset_url }}" alt="icon">
                     </div>
-                    {% for row_field in row %}
-                      <p>{{ 'yo' }}</p>
-                    {% endfor %}
+                    <p>{{  }}</p>
+                    
                   </div>
                 {% endfor %}
             {% endif %}
