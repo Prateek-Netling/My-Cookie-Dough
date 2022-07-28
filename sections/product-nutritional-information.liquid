@@ -8,47 +8,30 @@
                 </header>
                 <div class="custom-accordion">
                   
+                  {% assign scope = product.metafields.airf %}
+                  {% assign summary = scope.summary %}
+                  {% if summary and summary != blank %}
+                      {% for row in summary.rows %}
+                          
+                      {% endfor %}
+                  {% endif %}
+
+
+
+
+
+                  
                   <div class="custom-card active">
                     <div class="custom-accordion-header"> View Nutrition Summary </div>
                     <div class="custom-accordion-content">
                       <div class="inner-content">
                         <ul class="list3">
+                          
                           <li>
                             <span class="data">Happiness (%)</span>
                             <span class="value">100</span>
                           </li>
-                          <li>
-                            <span class="data">Energy(kJ per portion)</span>
-                            <span class="value">2786.2</span>
-                          </li>
-                          <li>
-                            <span class="data">Energy (kcal per portion)</span>
-                            <span class="value">665.3</span>
-                          </li>
-                          <li>
-                            <span class="data">Fat (total)</span>
-                            <span class="value">32.15</span>
-                          </li>
-                          <li>
-                            <span class="data">Fat (Saturated)</span>
-                            <span class="value">19.32</span>
-                          </li>
-                          <li>
-                            <span class="data">Carbohydrate (total)</span>
-                            <span class="value">85.53</span>
-                          </li>
-                          <li>
-                            <span class="data">Carbohydrate (sugars)</span>
-                            <span class="value">46.6</span>
-                          </li>
-                          <li>
-                            <span class="data">Protein (total)</span>
-                            <span class="value">7.88</span>
-                          </li>
-                          <li>
-                            <span class="data">Salt (total)</span>
-                            <span class="value">0.733</span>
-                          </li>
+                  
                         </ul>
                       </div>
                     </div>
