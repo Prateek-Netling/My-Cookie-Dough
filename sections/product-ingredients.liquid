@@ -1,33 +1,3 @@
-{% comment %} <!-- section -->
-        <div class="section ingredients text-center">
-          <div class="container">
-            <header>
-              <h3>{{ section.settings.heading }}</h3>
-            </header>
-            <div class="row">
-              <div class="col-md-4 column">
-                <div class="image">
-                  <img src="{{ 'image8.png' | asset_url }}" alt="icon">
-                </div>
-                <p>Chocolate chip</p>
-              </div>
-              <div class="col-md-4 column">
-                <div class="image">
-                  <img src="{{ 'image9.png' | asset_url }}" alt="icon">
-                </div>
-                <p>Kinder</p>
-              </div>
-              <div class="col-md-4 column">
-                <div class="image">
-                  <img src="{{ 'image10.png' | asset_url }}" alt="icon">
-                </div>
-                <p>Caramel candy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-<!-- /section --> {% endcomment %}
-
 <!-- section -->
         <div class="section ingredients text-center">
           <div class="container">
@@ -46,7 +16,6 @@
                       <img src="{{ scope[row[0].key] }}" alt="icon">
                     </div>
                     <p>{{ scope[row[1].key] }}</p>
-                    
                   </div>
                 {% endfor %}
             {% endif %}
