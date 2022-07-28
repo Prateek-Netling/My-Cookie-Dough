@@ -41,7 +41,6 @@
               {% assign ingredient = scope.ingredient %}
               {% if ingredient and ingredient != blank %}
                   {% for row in ingredient.rows %}
-                      Row Data 
                       {% for row_field in row %}
                           {% comment %} Show ech field in row {% endcomment %}
                           <div id="{{row_field.key}}">
