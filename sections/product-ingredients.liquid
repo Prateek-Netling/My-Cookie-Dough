@@ -28,20 +28,32 @@
         </div>
 <!-- /section --> {% endcomment %}
 
-
-{% assign scope = product.metafields.airf %}
-{% assign ingredient = scope.ingredient %}
-{% if ingredient and ingredient != blank %}
-    {% for row in ingredient.rows %}
-        {% for row_field in row %}
-            <div id="{{row_field.key}}">
-                <span>{{row_field.label}}: {{ scope[row_field.key] }}</span>
+<!-- section -->
+        <div class="section ingredients text-center">
+          <div class="container">
+            <header>
+              <h3>{{ section.settings.heading }}</h3>
+            </header>
+            <div class="row">
+              {% assign scope = product.metafields.airf %}
+              {% assign ingredient = scope.ingredient %}
+              {% if ingredient and ingredient != blank %}
+                  {% for row in ingredient.rows %}
+                      {% for row_field in row %}
+                          <div class="col-md-4 column">
+                            <div class="image">
+                              <img src="{{ scope[row_field.key] | asset_url }}" alt="icon">
+                            </div>
+                            <p>{{ scope[row_field.key] }}</p>
+                          </div>
+                      {% endfor %}
+                  {% endfor %}
+              {% endif %}
+              
             </div>
-
-            
-        {% endfor %}
-    {% endfor %}
-{% endif %}
+          </div>
+        </div>
+<!-- /section -->
 
 
 
