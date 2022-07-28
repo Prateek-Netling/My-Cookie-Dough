@@ -42,7 +42,7 @@
                       {% for row_field in row %}
                           <div class="col-md-4 column">
                             <div class="image">
-                              <img src="{{ scope[row_field.key] | asset_url }}" alt="icon">
+                              <img src="{{ scope[row_field.key] }}" alt="icon">
                             </div>
                             <p>{{ scope[row_field.key] }}</p>
                           </div>
