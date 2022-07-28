@@ -43,7 +43,7 @@
                   {% for row in ingredient.rows %}
                       {% for row_field in row %}
 <!--                           <div id="{{row_field.key}}"> -->
-                              <span>{{row_field.label}}: {{ scope[row_field.key] }}</span>
+                              <span>{{ scope[row_field.key] }}</span> <br>
 <!--                           </div> -->
                       {% endfor %}
                   {% endfor %}
