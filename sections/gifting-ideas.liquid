@@ -14,7 +14,7 @@
                   {% for block in section.blocks %}
                   	{% case block.type %}
                   	  {% when 'idea' %}
-                        <div class="col-md-6 olumn">
+                        <div class="col-md-6">
                           <figure class="image">
                             <img class="w-100" src="{{ block.settings.idea-image | image_url }}" alt="{{ block.settings.idea-image.alt }}">
                           </figure>
