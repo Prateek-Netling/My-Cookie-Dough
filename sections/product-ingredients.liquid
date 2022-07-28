@@ -37,13 +37,7 @@
             <div class="row">
 
               
-              {% assign scope = product.metafields.airf %}
-              {% assign ingredient = scope.ingredient %}
-              {% if ingredient and ingredient != blank %}
-                  {% for row in ingredient.rows %}
-                      {{ scope[row_field].key }} {{ row_field.label }}
-                  {% endfor %}
-              {% endif %}
+             
 
               
             </div>
