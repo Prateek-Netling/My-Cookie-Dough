@@ -37,14 +37,14 @@
             <div class="row">
 
               
-            {% assign i = 1 %}
+            {% assign i = 0 %}
             {% assign scope = product.metafields.airf %}
             {% assign ingredient = scope.ingredient %}
             {% if ingredient and ingredient != blank %}
                 {% for row in ingredient.rows %}
                   <div class="col-md-4 column">
                     <div class="image">
-                      <img src="{{ 'image9.png' | asset_url }}" alt="icon">
+                      <img src="{{ scope[row[i].key] }}" alt="icon">
                     </div>
                     <p>{{ scope[row[i].key] }}</p>
                     
