@@ -24,6 +24,8 @@
               {% for value in product.metafields.Image.image %}
                 {% assign images = images | append: value %}
               {% endfor %}
+
+              {{ images }}
               
               {% for value in product.metafields.Image.image %}
                 <div class="col-md-4 column">
