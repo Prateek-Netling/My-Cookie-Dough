@@ -33,38 +33,40 @@
                     <div class="custom-accordion-content">
                       <div class="inner-content">
                         <ul class="list3">
-                          
-                          <li>
-                            <span class="data">Happiness (%)</span>
-                            <span class="value">100</span>
-                          </li>
-                  
+                         {% assign scope = product.metafields.airf %}
+                          {% assign allergen = scope.allergen %}
+                          {% if allergen and allergen != blank %}
+                              {% for row in allergen.rows %}
+                                <li>
+                                  <span class="data">{{ scope[row[0].key] }}</span>
+                                  <span class="value">{{ scope[row[1].key] }}</span>
+                                </li>
+                              {% endfor %}
+                          {% endif %}
                         </ul>
                       </div>
                     </div>
                   </div>
-
-
 
                   <div class="custom-card">
                     <div class="custom-accordion-header"> {{ section.settings.storage-heading }} </div>
                     <div class="custom-accordion-content">
                       <div class="inner-content">
                         <ul class="list3">
-                          
-                          <li>
-                            <span class="data">Happiness (%)</span>
-                            <span class="value">100</span>
-                          </li>
-                  
-                        </ul>
+                          {% assign scope = product.metafields.airf %}
+                          {% assign storage = scope.storage %}
+                          {% if storage and storage != blank %}
+                              {% for row in storage.rows %}
+                                <li>
+                                  <span class="data">{{ scope[row[0].key] }}</span>
+                                  <span class="value">{{ scope[row[1].key] }}</span>
+                                </li>
+                              {% endfor %}
+                          {% endif %}
                       </div>
                     </div>
                   </div>
-
-
-
-                  
+    
               </div>
             </div>
           </div>
