@@ -26,7 +26,7 @@
                     <div class="image">
                       <img src="{{ value }}" alt="icon">
                     </div>
-                    <p>{{ 'jai' }}</p>
+                    <p>{{ product.metafields.Name.name[forloop.index0] }}</p>
                   </div>
               {% endfor %}
 
