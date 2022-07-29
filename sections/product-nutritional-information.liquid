@@ -8,20 +8,21 @@
                 </header>
                 <div class="custom-accordion">
                   
-                
-
-                  
                   <div class="custom-card active">
                     <div class="custom-accordion-header"> {{ section.settings.summary-heading }} </div>
                     <div class="custom-accordion-content">
                       <div class="inner-content">
                         <ul class="list3">
-                          
-                          <li>
-                            <span class="data">Happiness (%)</span>
-                            <span class="value">100</span>
-                          </li>
-                  
+                          {% assign scope = product.metafields.airf %}
+                          {% assign summary = scope.summary %}
+                          {% if summary and summary != blank %}
+                              {% for row in summary.rows %}
+                                <li>
+                                  <span class="data">scope[row[0].key]</span>
+                                  <span class="value">scope[row[1].key]</span>
+                                </li>
+                              {% endfor %}
+                          {% endif %}
                         </ul>
                       </div>
                     </div>
