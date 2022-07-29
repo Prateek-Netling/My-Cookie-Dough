@@ -18,8 +18,8 @@
                           {% if summary and summary != blank %}
                               {% for row in summary.rows %}
                                 <li>
-                                  <span class="data">scope[row[0].key]</span>
-                                  <span class="value">scope[row[1].key]</span>
+                                  <span class="data">{{ scope[row[0].key] }}</span>
+                                  <span class="value">{{ scope[row[1].key] }}</span>
                                 </li>
                               {% endfor %}
                           {% endif %}
