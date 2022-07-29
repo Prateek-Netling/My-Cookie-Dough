@@ -20,6 +20,7 @@
                                   <span class="value">{{ product.metafields.Summary.value[forloop.index0] }}</span>
                                 </li>
                               {% endfor %}
+                              
                         </ul>
                       </div>
                     </div>
@@ -30,16 +31,14 @@
                     <div class="custom-accordion-content">
                       <div class="inner-content">
                         <ul class="list3">
-                         {% assign scope = product.metafields.airf %}
-                          {% assign allergen = scope.allergen %}
-                          {% if allergen and allergen != blank %}
-                              {% for row in allergen.rows %}
-                                <li>
-                                  <span class="data">{{ scope[row[0].key] }}</span>
-                                  <span class="value">{{ scope[row[1].key] }}</span>
-                                </li>
-                              {% endfor %}
-                          {% endif %}
+                         
+                          {% for label in product.metafields.Summary.label %}
+                            <li>
+                              <span class="data">{{ label }}</span>
+                              <span class="value">{{ product.metafields.Summary.value[forloop.index0] }}</span>
+                            </li>
+                          {% endfor %}
+                          
                         </ul>
                       </div>
                     </div>
@@ -50,16 +49,14 @@
                     <div class="custom-accordion-content">
                       <div class="inner-content">
                         <ul class="list3">
-                          {% assign scope = product.metafields.airf %}
-                          {% assign storage = scope.storage %}
-                          {% if storage and storage != blank %}
-                              {% for row in storage.rows %}
-                                <li>
-                                  <span class="data">{{ scope[row[0].key] }}</span>
-                                  <span class="value">{{ scope[row[1].key] }}</span>
-                                </li>
-                              {% endfor %}
-                          {% endif %}
+
+                           {% for label in product.metafields.Summary.label %}
+                              <li>
+                                <span class="data">{{ label }}</span>
+                                <span class="value">{{ product.metafields.Summary.value[forloop.index0] }}</span>
+                              </li>
+                           {% endfor %} 
+                          
                       </div>
                     </div>
                   </div>
