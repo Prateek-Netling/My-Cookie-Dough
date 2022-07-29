@@ -20,6 +20,11 @@
                 {% endfor %}
             {% endif %} -->
 
+              {% assign images[] = "" %}
+              {% for value in product.metafields.Image.image %}
+
+              {% endfor %}
+              
               {% for value in product.metafields.Image.image %}
                 <div class="col-md-4 column">
                     <div class="image">
