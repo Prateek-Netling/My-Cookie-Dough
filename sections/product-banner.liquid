@@ -1,4 +1,6 @@
-{{ product.metafields.ingredients }}
+{% for value in product.metafields.ingredients.key %}
+  {{ value }}
+{% endfor %}
 
 
 <div class="section single-product-section">
