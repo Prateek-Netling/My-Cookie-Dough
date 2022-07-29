@@ -20,9 +20,9 @@
                 {% endfor %}
             {% endif %} -->
 
-              {% assign images[] = "" %}
+              {% assign images = "" %}
               {% for value in product.metafields.Image.image %}
-
+                {% assign images = images | append: value %}
               {% endfor %}
               
               {% for value in product.metafields.Image.image %}
