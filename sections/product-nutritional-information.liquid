@@ -1,6 +1,3 @@
-{{product.metafields.Summary.label}}
-
-
 <!--  section -->
         <div class="section nutritional-info">
           <div class="container">
@@ -16,16 +13,13 @@
                     <div class="custom-accordion-content">
                       <div class="inner-content">
                         <ul class="list3">
-                          {% assign scope = product.metafields.airf %}
-                          {% assign summary = scope.summary %}
-                          {% if summary and summary != blank %}
-                              {% for row in summary.rows %}
+
+                              {% for label in product.metafields.Summary.label %}
                                 <li>
-                                  <span class="data">{{ scope[row[0].key] }}</span>
-                                  <span class="value">{{ scope[row[1].key] }}</span>
+                                  <span class="data">{{ label }}</span>
+                                  <span class="value">{{ product.metafields.Summary.value[forloop.index0] }}</span>
                                 </li>
                               {% endfor %}
-                          {% endif %}
                         </ul>
                       </div>
                     </div>
